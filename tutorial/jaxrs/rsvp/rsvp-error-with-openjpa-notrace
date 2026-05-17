@@ -1,0 +1,601 @@
+Picked up _JAVA_OPTIONS: -Djava.util.prefs.userRoot=/home/Sxtormulo/.config/java -Djavafx.cachedir=/run/user/1000/cache/openjfx 
+16-May-2026 18:54:57.424 INFO [main] jdk.internal.reflect.NativeMethodAccessorImpl.invoke Server version name:   Apache Tomcat (TomEE)/10.1.54 (10.1.5)
+16-May-2026 18:54:57.425 INFO [main] jdk.internal.reflect.NativeMethodAccessorImpl.invoke Server built:          Mar 30 2026 22:31:53 UTC
+16-May-2026 18:54:57.425 INFO [main] jdk.internal.reflect.NativeMethodAccessorImpl.invoke Server version number: 10.1.54.0
+16-May-2026 18:54:57.425 INFO [main] jdk.internal.reflect.NativeMethodAccessorImpl.invoke OS Name:               Linux
+16-May-2026 18:54:57.425 INFO [main] jdk.internal.reflect.NativeMethodAccessorImpl.invoke OS Version:            7.0.6-gentoo-dist
+16-May-2026 18:54:57.425 INFO [main] jdk.internal.reflect.NativeMethodAccessorImpl.invoke Architecture:          amd64
+16-May-2026 18:54:57.425 INFO [main] jdk.internal.reflect.NativeMethodAccessorImpl.invoke Java Home:             /usr/lib64/openjdk-17
+16-May-2026 18:54:57.425 INFO [main] jdk.internal.reflect.NativeMethodAccessorImpl.invoke JVM Version:           17.0.18+8
+16-May-2026 18:54:57.425 INFO [main] jdk.internal.reflect.NativeMethodAccessorImpl.invoke JVM Vendor:            Gentoo
+16-May-2026 18:54:57.425 INFO [main] jdk.internal.reflect.NativeMethodAccessorImpl.invoke CATALINA_BASE:         /tmp/Sxtormulo_tmp/apache-tomee-plus-10.1.5
+16-May-2026 18:54:57.425 INFO [main] jdk.internal.reflect.NativeMethodAccessorImpl.invoke CATALINA_HOME:         /tmp/Sxtormulo_tmp/apache-tomee-plus-10.1.5
+16-May-2026 18:54:57.431 INFO [main] jdk.internal.reflect.NativeMethodAccessorImpl.invoke Command line argument: -Djava.util.logging.config.file=/home/Sxtormulo/tmp/apache-tomee-plus-10.1.5/conf/logging.properties
+16-May-2026 18:54:57.431 INFO [main] jdk.internal.reflect.NativeMethodAccessorImpl.invoke Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+16-May-2026 18:54:57.431 INFO [main] jdk.internal.reflect.NativeMethodAccessorImpl.invoke Command line argument: -javaagent:/home/Sxtormulo/tmp/apache-tomee-plus-10.1.5/lib/openejb-javaagent.jar
+16-May-2026 18:54:57.431 INFO [main] jdk.internal.reflect.NativeMethodAccessorImpl.invoke Command line argument: -Dhttp.nonProxyHosts=localhost|127.0.0.1|SxtormCI
+16-May-2026 18:54:57.431 INFO [main] jdk.internal.reflect.NativeMethodAccessorImpl.invoke Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+16-May-2026 18:54:57.431 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+16-May-2026 18:54:57.431 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Command line argument: -Dsun.io.useCanonCaches=false
+16-May-2026 18:54:57.431 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+16-May-2026 18:54:57.431 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+16-May-2026 18:54:57.431 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Command line argument: --add-opens=java.base/java.lang.reflect=ALL-UNNAMED
+16-May-2026 18:54:57.432 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+16-May-2026 18:54:57.432 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+16-May-2026 18:54:57.432 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+16-May-2026 18:54:57.432 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+16-May-2026 18:54:57.432 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Command line argument: -Dcatalina.base=/home/Sxtormulo/tmp/apache-tomee-plus-10.1.5
+16-May-2026 18:54:57.432 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Command line argument: -Dcatalina.home=/home/Sxtormulo/tmp/apache-tomee-plus-10.1.5
+16-May-2026 18:54:57.432 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Command line argument: -Djava.io.tmpdir=/home/Sxtormulo/tmp/apache-tomee-plus-10.1.5/temp
+16-May-2026 18:54:57.432 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Command line argument: -Djava.util.prefs.userRoot=/home/Sxtormulo/.config/java
+16-May-2026 18:54:57.432 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Command line argument: -Djavafx.cachedir=/run/user/1000/cache/openjfx
+16-May-2026 18:54:57.433 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib]
+16-May-2026 18:54:57.621 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Initializing ProtocolHandler ["http-nio-8080"]
+16-May-2026 18:54:57.754 INFO [main] org.apache.openejb.util.OptionsLog.info Using 'openejb.jdbc.datasource-creator=org.apache.tomee.jdbc.TomEEDataSourceCreator'
+16-May-2026 18:54:57.809 INFO [main] org.apache.openejb.OpenEJB$Instance.<init> ********************************************************************************
+16-May-2026 18:54:57.810 INFO [main] org.apache.openejb.OpenEJB$Instance.<init> OpenEJB http://tomee.apache.org/
+16-May-2026 18:54:57.810 INFO [main] org.apache.openejb.OpenEJB$Instance.<init> Startup: Sat May 16 18:54:57 CST 2026
+16-May-2026 18:54:57.810 INFO [main] org.apache.openejb.OpenEJB$Instance.<init> Copyright 1999-2025 (C) Apache TomEE Project, All Rights Reserved.
+16-May-2026 18:54:57.810 INFO [main] org.apache.openejb.OpenEJB$Instance.<init> Version: 10.1.5
+16-May-2026 18:54:57.810 INFO [main] org.apache.openejb.OpenEJB$Instance.<init> Build date: 20260426
+16-May-2026 18:54:57.810 INFO [main] org.apache.openejb.OpenEJB$Instance.<init> Build time: 08:43
+16-May-2026 18:54:57.810 INFO [main] org.apache.openejb.OpenEJB$Instance.<init> ********************************************************************************
+16-May-2026 18:54:57.810 INFO [main] org.apache.openejb.OpenEJB$Instance.<init> openejb.home = /tmp/Sxtormulo_tmp/apache-tomee-plus-10.1.5
+16-May-2026 18:54:57.810 INFO [main] org.apache.openejb.OpenEJB$Instance.<init> openejb.base = /tmp/Sxtormulo_tmp/apache-tomee-plus-10.1.5
+16-May-2026 18:54:57.812 INFO [main] org.apache.openejb.cdi.CdiBuilder.initializeOWB Created new singletonService org.apache.openejb.cdi.ThreadSingletonServiceImpl@5b367418
+16-May-2026 18:54:57.814 INFO [main] org.apache.openejb.cdi.CdiBuilder.initializeOWB Succeeded in installing singleton service
+16-May-2026 18:54:57.837 INFO [main] org.apache.openejb.config.ConfigurationFactory.init TomEE configuration file is '/tmp/Sxtormulo_tmp/apache-tomee-plus-10.1.5/conf/tomee.xml'
+16-May-2026 18:54:57.859 INFO [main] org.apache.openejb.config.ConfigurationFactory.configureService Configuring Service(id=Tomcat Security Service, type=SecurityService, provider-id=Tomcat Security Service)
+16-May-2026 18:54:57.860 INFO [main] org.apache.openejb.config.ConfigurationFactory.configureService Configuring Service(id=Default Transaction Manager, type=TransactionManager, provider-id=Default Transaction Manager)
+16-May-2026 18:54:57.862 INFO [main] org.apache.openejb.util.OptionsLog.info Using 'openejb.deployments.classpath=false'
+16-May-2026 18:54:57.877 INFO [main] org.apache.openejb.assembler.classic.Assembler.createRecipe Creating TransactionManager(id=Default Transaction Manager)
+16-May-2026 18:54:57.913 INFO [main] org.apache.openejb.assembler.classic.Assembler.createRecipe Creating SecurityService(id=Tomcat Security Service)
+16-May-2026 18:54:57.968 INFO [main] org.apache.openejb.server.ServiceManager.initServer Creating ServerService(id=cxf)
+16-May-2026 18:54:58.136 INFO [main] org.apache.openejb.server.ServiceManager.initServer Creating ServerService(id=cxf-rs)
+16-May-2026 18:54:58.173 INFO [main] org.apache.openejb.server.SimpleServiceManager.start   ** Bound Services **
+16-May-2026 18:54:58.174 INFO [main] org.apache.openejb.server.SimpleServiceManager.printRow   NAME                 IP              PORT  
+16-May-2026 18:54:58.174 INFO [main] org.apache.openejb.server.SimpleServiceManager.start -------
+16-May-2026 18:54:58.174 INFO [main] org.apache.openejb.server.SimpleServiceManager.start Ready!
+16-May-2026 18:54:58.174 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Server initialization in [869] milliseconds
+16-May-2026 18:54:58.214 INFO [main] org.apache.tomee.catalina.OpenEJBNamingContextListener.bindResource Importing a Tomcat Resource with id 'UserDatabase' of type 'org.apache.catalina.UserDatabase'.
+16-May-2026 18:54:58.220 INFO [main] org.apache.openejb.assembler.classic.Assembler.createRecipe Creating Resource(id=UserDatabase)
+16-May-2026 18:54:58.243 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Starting service [Catalina]
+16-May-2026 18:54:58.243 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Starting Servlet engine: [Apache Tomcat (TomEE)/10.1.54 (10.1.5)]
+16-May-2026 18:54:58.254 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Deploying web application directory [/tmp/Sxtormulo_tmp/apache-tomee-plus-10.1.5/webapps/host-manager]
+16-May-2026 18:54:58.273 INFO [main] org.apache.tomee.catalina.TomcatWebAppBuilder.init ------------------------- localhost -> /host-manager
+16-May-2026 18:54:58.406 INFO [main] org.apache.openejb.util.OptionsLog.info Using 'tomee.mp.cdi.extensions=io.smallrye.config.inject.ConfigExtension,io.smallrye.faulttolerance.FaultToleranceExtension,io.smallrye.metrics.legacyapi.LegacyMetricsExtension,io.smallrye.opentelemetry.implementation.cdi.OpenTelemetryExtension,org.apache.cxf.microprofile.client.cdi.RestClientExtension,org.apache.tomee.microprofile.faulttolerance.MPFaultToleranceCDIExtension,org.apache.tomee.microprofile.health.MPHealthCDIExtension,org.apache.tomee.microprofile.jwt.cdi.MPJWTCDIExtension,org.apache.tomee.microprofile.opentelemetry.MPOpenTelemetryCDIExtension'
+16-May-2026 18:54:58.416 INFO [main] org.apache.openejb.config.ConfigurationFactory.configureApplication Configuring enterprise application: /tmp/Sxtormulo_tmp/apache-tomee-plus-10.1.5/webapps/host-manager
+16-May-2026 18:54:58.444 INFO [main] org.apache.openejb.config.AppInfoBuilder.build Enterprise application "/tmp/Sxtormulo_tmp/apache-tomee-plus-10.1.5/webapps/host-manager" loaded.
+16-May-2026 18:54:58.450 INFO [main] org.apache.openejb.assembler.classic.Assembler.createApplication Assembling app: /tmp/Sxtormulo_tmp/apache-tomee-plus-10.1.5/webapps/host-manager
+16-May-2026 18:54:58.508 INFO [main] org.apache.openejb.assembler.classic.ValidatorBuilder.getConfig Ignoring XML Configuration for validator org.apache.bval.jsr.ConfigurationImpl
+16-May-2026 18:54:58.535 INFO [main] org.apache.tomee.catalina.TomcatWebAppBuilder.deployWebApps using context file /tmp/Sxtormulo_tmp/apache-tomee-plus-10.1.5/webapps/host-manager/META-INF/context.xml
+16-May-2026 18:54:58.536 WARNING [main] org.apache.batchee.container.services.ServicesManager.init You didn't specify org.apache.batchee.jmx.application and JMX is already registered, skipping
+16-May-2026 18:54:58.538 INFO [main] org.apache.openejb.assembler.classic.Assembler.createApplication Deployed Application(path=/tmp/Sxtormulo_tmp/apache-tomee-plus-10.1.5/webapps/host-manager)
+16-May-2026 18:54:58.618 INFO [main] org.apache.myfaces.webapp.MyFacesContainerInitializer.onStartup Using org.apache.myfaces.webapp.MyFacesContainerInitializer
+16-May-2026 18:54:58.656 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+16-May-2026 18:54:58.694 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Deployment of web application directory [/tmp/Sxtormulo_tmp/apache-tomee-plus-10.1.5/webapps/host-manager] has finished in [440] ms
+16-May-2026 18:54:58.694 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Deploying web application directory [/tmp/Sxtormulo_tmp/apache-tomee-plus-10.1.5/webapps/ROOT]
+16-May-2026 18:54:58.695 INFO [main] org.apache.tomee.catalina.TomcatWebAppBuilder.init ------------------------- localhost -> /
+16-May-2026 18:54:58.702 INFO [main] org.apache.openejb.util.OptionsLog.info Using 'tomee.mp.cdi.extensions=io.smallrye.config.inject.ConfigExtension,io.smallrye.faulttolerance.FaultToleranceExtension,io.smallrye.metrics.legacyapi.LegacyMetricsExtension,io.smallrye.opentelemetry.implementation.cdi.OpenTelemetryExtension,org.apache.cxf.microprofile.client.cdi.RestClientExtension,org.apache.tomee.microprofile.faulttolerance.MPFaultToleranceCDIExtension,org.apache.tomee.microprofile.health.MPHealthCDIExtension,org.apache.tomee.microprofile.jwt.cdi.MPJWTCDIExtension,org.apache.tomee.microprofile.opentelemetry.MPOpenTelemetryCDIExtension'
+16-May-2026 18:54:58.704 INFO [main] org.apache.openejb.config.ConfigurationFactory.configureApplication Configuring enterprise application: /tmp/Sxtormulo_tmp/apache-tomee-plus-10.1.5/webapps/ROOT
+16-May-2026 18:54:58.706 INFO [main] org.apache.openejb.config.AppInfoBuilder.build Enterprise application "/tmp/Sxtormulo_tmp/apache-tomee-plus-10.1.5/webapps/ROOT" loaded.
+16-May-2026 18:54:58.706 INFO [main] org.apache.openejb.assembler.classic.Assembler.createApplication Assembling app: /tmp/Sxtormulo_tmp/apache-tomee-plus-10.1.5/webapps/ROOT
+16-May-2026 18:54:58.709 INFO [main] org.apache.openejb.assembler.classic.ValidatorBuilder.getConfig Ignoring XML Configuration for validator org.apache.bval.jsr.ConfigurationImpl
+16-May-2026 18:54:58.711 WARNING [main] org.apache.batchee.container.services.ServicesManager.init You didn't specify org.apache.batchee.jmx.application and JMX is already registered, skipping
+16-May-2026 18:54:58.711 INFO [main] org.apache.openejb.assembler.classic.Assembler.createApplication Deployed Application(path=/tmp/Sxtormulo_tmp/apache-tomee-plus-10.1.5/webapps/ROOT)
+16-May-2026 18:54:58.731 INFO [main] org.apache.myfaces.webapp.MyFacesContainerInitializer.onStartup Using org.apache.myfaces.webapp.MyFacesContainerInitializer
+16-May-2026 18:54:58.753 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+16-May-2026 18:54:58.761 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Deployment of web application directory [/tmp/Sxtormulo_tmp/apache-tomee-plus-10.1.5/webapps/ROOT] has finished in [67] ms
+16-May-2026 18:54:58.761 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Deploying web application directory [/tmp/Sxtormulo_tmp/apache-tomee-plus-10.1.5/webapps/manager]
+16-May-2026 18:54:58.762 INFO [main] org.apache.tomee.catalina.TomcatWebAppBuilder.init ------------------------- localhost -> /manager
+16-May-2026 18:54:58.777 INFO [main] org.apache.openejb.util.OptionsLog.info Using 'tomee.mp.cdi.extensions=io.smallrye.config.inject.ConfigExtension,io.smallrye.faulttolerance.FaultToleranceExtension,io.smallrye.metrics.legacyapi.LegacyMetricsExtension,io.smallrye.opentelemetry.implementation.cdi.OpenTelemetryExtension,org.apache.cxf.microprofile.client.cdi.RestClientExtension,org.apache.tomee.microprofile.faulttolerance.MPFaultToleranceCDIExtension,org.apache.tomee.microprofile.health.MPHealthCDIExtension,org.apache.tomee.microprofile.jwt.cdi.MPJWTCDIExtension,org.apache.tomee.microprofile.opentelemetry.MPOpenTelemetryCDIExtension'
+16-May-2026 18:54:58.780 INFO [main] org.apache.openejb.config.ConfigurationFactory.configureApplication Configuring enterprise application: /tmp/Sxtormulo_tmp/apache-tomee-plus-10.1.5/webapps/manager
+16-May-2026 18:54:58.787 INFO [main] org.apache.openejb.config.AppInfoBuilder.build Enterprise application "/tmp/Sxtormulo_tmp/apache-tomee-plus-10.1.5/webapps/manager" loaded.
+16-May-2026 18:54:58.787 INFO [main] org.apache.openejb.assembler.classic.Assembler.createApplication Assembling app: /tmp/Sxtormulo_tmp/apache-tomee-plus-10.1.5/webapps/manager
+16-May-2026 18:54:58.790 INFO [main] org.apache.openejb.assembler.classic.ValidatorBuilder.getConfig Ignoring XML Configuration for validator org.apache.bval.jsr.ConfigurationImpl
+16-May-2026 18:54:58.792 INFO [main] org.apache.tomee.catalina.TomcatWebAppBuilder.deployWebApps using context file /tmp/Sxtormulo_tmp/apache-tomee-plus-10.1.5/webapps/manager/META-INF/context.xml
+16-May-2026 18:54:58.792 WARNING [main] org.apache.batchee.container.services.ServicesManager.init You didn't specify org.apache.batchee.jmx.application and JMX is already registered, skipping
+16-May-2026 18:54:58.793 INFO [main] org.apache.openejb.assembler.classic.Assembler.createApplication Deployed Application(path=/tmp/Sxtormulo_tmp/apache-tomee-plus-10.1.5/webapps/manager)
+16-May-2026 18:54:58.812 INFO [main] org.apache.myfaces.webapp.MyFacesContainerInitializer.onStartup Using org.apache.myfaces.webapp.MyFacesContainerInitializer
+16-May-2026 18:54:58.826 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+16-May-2026 18:54:58.831 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Deployment of web application directory [/tmp/Sxtormulo_tmp/apache-tomee-plus-10.1.5/webapps/manager] has finished in [70] ms
+16-May-2026 18:54:58.831 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Deploying web application directory [/tmp/Sxtormulo_tmp/apache-tomee-plus-10.1.5/webapps/docs]
+16-May-2026 18:54:58.832 INFO [main] org.apache.tomee.catalina.TomcatWebAppBuilder.init ------------------------- localhost -> /docs
+16-May-2026 18:54:58.840 INFO [main] org.apache.openejb.util.OptionsLog.info Using 'tomee.mp.cdi.extensions=io.smallrye.config.inject.ConfigExtension,io.smallrye.faulttolerance.FaultToleranceExtension,io.smallrye.metrics.legacyapi.LegacyMetricsExtension,io.smallrye.opentelemetry.implementation.cdi.OpenTelemetryExtension,org.apache.cxf.microprofile.client.cdi.RestClientExtension,org.apache.tomee.microprofile.faulttolerance.MPFaultToleranceCDIExtension,org.apache.tomee.microprofile.health.MPHealthCDIExtension,org.apache.tomee.microprofile.jwt.cdi.MPJWTCDIExtension,org.apache.tomee.microprofile.opentelemetry.MPOpenTelemetryCDIExtension'
+16-May-2026 18:54:58.842 INFO [main] org.apache.openejb.config.ConfigurationFactory.configureApplication Configuring enterprise application: /tmp/Sxtormulo_tmp/apache-tomee-plus-10.1.5/webapps/docs
+16-May-2026 18:54:58.844 INFO [main] org.apache.openejb.config.AppInfoBuilder.build Enterprise application "/tmp/Sxtormulo_tmp/apache-tomee-plus-10.1.5/webapps/docs" loaded.
+16-May-2026 18:54:58.844 INFO [main] org.apache.openejb.assembler.classic.Assembler.createApplication Assembling app: /tmp/Sxtormulo_tmp/apache-tomee-plus-10.1.5/webapps/docs
+16-May-2026 18:54:58.846 INFO [main] org.apache.openejb.assembler.classic.ValidatorBuilder.getConfig Ignoring XML Configuration for validator org.apache.bval.jsr.ConfigurationImpl
+16-May-2026 18:54:58.848 INFO [main] org.apache.tomee.catalina.TomcatWebAppBuilder.deployWebApps using context file /tmp/Sxtormulo_tmp/apache-tomee-plus-10.1.5/webapps/docs/META-INF/context.xml
+16-May-2026 18:54:58.848 WARNING [main] org.apache.batchee.container.services.ServicesManager.init You didn't specify org.apache.batchee.jmx.application and JMX is already registered, skipping
+16-May-2026 18:54:58.849 INFO [main] org.apache.openejb.assembler.classic.Assembler.createApplication Deployed Application(path=/tmp/Sxtormulo_tmp/apache-tomee-plus-10.1.5/webapps/docs)
+16-May-2026 18:54:58.865 INFO [main] org.apache.myfaces.webapp.MyFacesContainerInitializer.onStartup Using org.apache.myfaces.webapp.MyFacesContainerInitializer
+16-May-2026 18:54:58.881 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+16-May-2026 18:54:58.887 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Deployment of web application directory [/tmp/Sxtormulo_tmp/apache-tomee-plus-10.1.5/webapps/docs] has finished in [55] ms
+16-May-2026 18:54:58.889 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Starting ProtocolHandler ["http-nio-8080"]
+16-May-2026 18:54:58.895 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Server startup in [721] milliseconds
+16-May-2026 18:54:58.956 INFO [http-nio-8080-exec-5] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Deploying deployment descriptor [/tmp/Sxtormulo_tmp/apache-tomee-plus-10.1.5/conf/Catalina/localhost/rsvp.xml]
+16-May-2026 18:54:58.957 WARNING [http-nio-8080-exec-5] jdk.internal.reflect.NativeMethodAccessorImpl.invoke The path attribute with value [/rsvp] in deployment descriptor [/tmp/Sxtormulo_tmp/apache-tomee-plus-10.1.5/conf/Catalina/localhost/rsvp.xml] has been ignored
+16-May-2026 18:54:58.957 INFO [http-nio-8080-exec-5] org.apache.tomee.catalina.TomcatWebAppBuilder.init ------------------------- localhost -> /rsvp
+16-May-2026 18:54:58.965 INFO [http-nio-8080-exec-5] org.apache.openejb.util.OptionsLog.info Using 'tomee.mp.cdi.extensions=io.smallrye.config.inject.ConfigExtension,io.smallrye.faulttolerance.FaultToleranceExtension,io.smallrye.metrics.legacyapi.LegacyMetricsExtension,io.smallrye.opentelemetry.implementation.cdi.OpenTelemetryExtension,org.apache.cxf.microprofile.client.cdi.RestClientExtension,org.apache.tomee.microprofile.faulttolerance.MPFaultToleranceCDIExtension,org.apache.tomee.microprofile.health.MPHealthCDIExtension,org.apache.tomee.microprofile.jwt.cdi.MPJWTCDIExtension,org.apache.tomee.microprofile.opentelemetry.MPOpenTelemetryCDIExtension'
+16-May-2026 18:54:58.991 INFO [http-nio-8080-exec-5] org.apache.openejb.config.ConfigurationFactory.configureApplication Configuring enterprise application: /tmp/Sxtormulo_tmp/rsvp/target/rsvp-10-SNAPSHOT
+16-May-2026 18:54:59.122 INFO [http-nio-8080-exec-5] org.apache.openejb.config.InitEjbDeployments.deploy Auto-deploying ejb ConfigBean: EjbDeployment(deployment-id=ConfigBean)
+16-May-2026 18:54:59.123 INFO [http-nio-8080-exec-5] org.apache.openejb.config.InitEjbDeployments.deploy Auto-deploying ejb ResponseBean: EjbDeployment(deployment-id=ResponseBean)
+16-May-2026 18:54:59.123 INFO [http-nio-8080-exec-5] org.apache.openejb.config.InitEjbDeployments.deploy Auto-deploying ejb StatusBean: EjbDeployment(deployment-id=StatusBean)
+16-May-2026 18:54:59.126 INFO [http-nio-8080-exec-5] org.apache.openejb.config.ConfigurationFactory.configureService Configuring Service(id=Default Singleton Container, type=Container, provider-id=Default Singleton Container)
+16-May-2026 18:54:59.127 INFO [http-nio-8080-exec-5] org.apache.openejb.config.AutoConfig.createContainer Auto-creating a container for bean ConfigBean: Container(type=SINGLETON, id=Default Singleton Container)
+16-May-2026 18:54:59.127 INFO [http-nio-8080-exec-5] org.apache.openejb.assembler.classic.Assembler.createRecipe Creating Container(id=Default Singleton Container)
+16-May-2026 18:54:59.135 INFO [http-nio-8080-exec-5] org.apache.openejb.config.ConfigurationFactory.configureService Configuring Service(id=Default Stateless Container, type=Container, provider-id=Default Stateless Container)
+16-May-2026 18:54:59.135 INFO [http-nio-8080-exec-5] org.apache.openejb.config.AutoConfig.createContainer Auto-creating a container for bean ResponseBean: Container(type=STATELESS, id=Default Stateless Container)
+16-May-2026 18:54:59.136 INFO [http-nio-8080-exec-5] org.apache.openejb.assembler.classic.Assembler.createRecipe Creating Container(id=Default Stateless Container)
+16-May-2026 18:54:59.142 INFO [http-nio-8080-exec-5] org.apache.openejb.config.ConfigurationFactory.configureService Configuring Service(id=Default Managed Container, type=Container, provider-id=Default Managed Container)
+16-May-2026 18:54:59.142 INFO [http-nio-8080-exec-5] org.apache.openejb.config.AutoConfig.createContainer Auto-creating a container for bean rsvp.Comp928559454: Container(type=MANAGED, id=Default Managed Container)
+16-May-2026 18:54:59.143 INFO [http-nio-8080-exec-5] org.apache.openejb.assembler.classic.Assembler.createRecipe Creating Container(id=Default Managed Container)
+16-May-2026 18:54:59.146 INFO [http-nio-8080-exec-5] org.apache.openejb.core.managed.SimplePassivater.init Using directory /home/Sxtormulo/tmp/apache-tomee-plus-10.1.5/temp for stateful session passivation
+16-May-2026 18:54:59.148 INFO [http-nio-8080-exec-5] org.apache.openejb.config.AutoConfig.deploy Configuring PersistenceUnit(name=jakarta.tutorial_rsvp_war-PU)
+16-May-2026 18:54:59.149 INFO [http-nio-8080-exec-5] org.apache.openejb.config.ConfigurationFactory.configureService Configuring Service(id=Default JDBC Database, type=Resource, provider-id=Default JDBC Database)
+16-May-2026 18:54:59.149 INFO [http-nio-8080-exec-5] org.apache.openejb.config.AutoConfig.logAutoCreateResource Auto-creating a Resource with id 'Default JDBC Database' of type 'DataSource' for 'jakarta.tutorial_rsvp_war-PU'.
+16-May-2026 18:54:59.150 INFO [http-nio-8080-exec-5] org.apache.openejb.assembler.classic.Assembler.createRecipe Creating Resource(id=Default JDBC Database)
+16-May-2026 18:54:59.350 INFO [http-nio-8080-exec-5] org.apache.openejb.config.ConfigurationFactory.configureService Configuring Service(id=Default Unmanaged JDBC Database, type=Resource, provider-id=Default Unmanaged JDBC Database)
+16-May-2026 18:54:59.350 INFO [http-nio-8080-exec-5] org.apache.openejb.config.AutoConfig.logAutoCreateResource Auto-creating a Resource with id 'Default Unmanaged JDBC Database' of type 'DataSource' for 'jakarta.tutorial_rsvp_war-PU'.
+16-May-2026 18:54:59.350 INFO [http-nio-8080-exec-5] org.apache.openejb.assembler.classic.Assembler.createRecipe Creating Resource(id=Default Unmanaged JDBC Database)
+16-May-2026 18:54:59.357 INFO [http-nio-8080-exec-5] org.apache.openejb.config.AutoConfig.setJtaDataSource Adjusting PersistenceUnit jakarta.tutorial_rsvp_war-PU <jta-data-source> to Resource ID 'Default JDBC Database' from 'comp/DefaultDataSource'
+16-May-2026 18:54:59.357 INFO [http-nio-8080-exec-5] org.apache.openejb.config.AutoConfig.setNonJtaDataSource Adjusting PersistenceUnit jakarta.tutorial_rsvp_war-PU <non-jta-data-source> to Resource ID 'Default Unmanaged JDBC Database' from 'null'
+16-May-2026 18:54:59.363 INFO [http-nio-8080-exec-5] org.apache.openejb.config.AppInfoBuilder.build Enterprise application "/tmp/Sxtormulo_tmp/rsvp/target/rsvp-10-SNAPSHOT" loaded.
+16-May-2026 18:54:59.363 INFO [http-nio-8080-exec-5] org.apache.openejb.assembler.classic.Assembler.createApplication Assembling app: /tmp/Sxtormulo_tmp/rsvp/target/rsvp-10-SNAPSHOT
+16-May-2026 18:54:59.415 INFO [http-nio-8080-exec-5] org.apache.openejb.assembler.classic.ValidatorBuilder.getConfig Ignoring XML Configuration for validator org.apache.bval.jsr.ConfigurationImpl
+16-May-2026 18:54:59.474 INFO [http-nio-8080-exec-5] null.openjpa.Runtime OpenJPA dynamically loaded a validation provider.
+16-May-2026 18:54:59.483 INFO [http-nio-8080-exec-5] org.apache.openejb.assembler.classic.ReloadableEntityManagerFactory.createDelegate PersistenceUnit(name=jakarta.tutorial_rsvp_war-PU, provider=org.apache.openjpa.persistence.PersistenceProviderImpl) - provider time 114ms
+16-May-2026 18:54:59.511 INFO [http-nio-8080-exec-5] org.apache.openejb.assembler.classic.JndiBuilder.bind Jndi(name=ConfigBeanLocalBean) --> Ejb(deployment-id=ConfigBean)
+16-May-2026 18:54:59.511 INFO [http-nio-8080-exec-5] org.apache.openejb.assembler.classic.JndiBuilder.bind Jndi(name=global/rsvp/ConfigBean!jakarta.tutorial.rsvp.ejb.ConfigBean) --> Ejb(deployment-id=ConfigBean)
+16-May-2026 18:54:59.512 INFO [http-nio-8080-exec-5] org.apache.openejb.assembler.classic.JndiBuilder.bind Jndi(name=global/rsvp/ConfigBean) --> Ejb(deployment-id=ConfigBean)
+16-May-2026 18:54:59.513 INFO [http-nio-8080-exec-5] org.apache.openejb.assembler.classic.JndiBuilder.bind Jndi(name=ResponseBeanLocalBean) --> Ejb(deployment-id=ResponseBean)
+16-May-2026 18:54:59.513 INFO [http-nio-8080-exec-5] org.apache.openejb.assembler.classic.JndiBuilder.bind Jndi(name=global/rsvp/ResponseBean!jakarta.tutorial.rsvp.ejb.ResponseBean) --> Ejb(deployment-id=ResponseBean)
+16-May-2026 18:54:59.513 INFO [http-nio-8080-exec-5] org.apache.openejb.assembler.classic.JndiBuilder.bind Jndi(name=global/rsvp/ResponseBean) --> Ejb(deployment-id=ResponseBean)
+16-May-2026 18:54:59.513 INFO [http-nio-8080-exec-5] org.apache.openejb.assembler.classic.JndiBuilder.bind Jndi(name=StatusBeanLocalBean) --> Ejb(deployment-id=StatusBean)
+16-May-2026 18:54:59.513 INFO [http-nio-8080-exec-5] org.apache.openejb.assembler.classic.JndiBuilder.bind Jndi(name=global/rsvp/StatusBean!jakarta.tutorial.rsvp.ejb.StatusBean) --> Ejb(deployment-id=StatusBean)
+16-May-2026 18:54:59.513 INFO [http-nio-8080-exec-5] org.apache.openejb.assembler.classic.JndiBuilder.bind Jndi(name=global/rsvp/StatusBean) --> Ejb(deployment-id=StatusBean)
+16-May-2026 18:54:59.532 INFO [http-nio-8080-exec-5] org.apache.openejb.cdi.CdiBuilder.initSingleton Existing thread singleton service in SystemInstance(): org.apache.openejb.cdi.ThreadSingletonServiceImpl@5b367418
+16-May-2026 18:54:59.581 INFO [http-nio-8080-exec-5] org.apache.openejb.cdi.OpenEJBLifecycle.startApplication OpenWebBeans Container is starting...
+16-May-2026 18:54:59.584 INFO [http-nio-8080-exec-5] org.apache.webbeans.plugins.PluginLoader.startUp Adding OpenWebBeansPlugin : [CdiPlugin]
+16-May-2026 18:54:59.587 INFO [http-nio-8080-exec-5] org.apache.openejb.cdi.CdiScanner.handleBda Using annotated mode for file:/tmp/Sxtormulo_tmp/rsvp/target/rsvp-10-SNAPSHOT/WEB-INF/classes/ looking all classes to find CDI beans, maybe think to add a beans.xml if not there or add the jar to exclusions.list
+16-May-2026 18:54:59.634 INFO [http-nio-8080-exec-5] org.apache.openejb.util.OptionsLog.info Using 'tomee.mp.cdi.extensions=io.smallrye.config.inject.ConfigExtension,io.smallrye.faulttolerance.FaultToleranceExtension,io.smallrye.metrics.legacyapi.LegacyMetricsExtension,io.smallrye.opentelemetry.implementation.cdi.OpenTelemetryExtension,org.apache.cxf.microprofile.client.cdi.RestClientExtension,org.apache.tomee.microprofile.faulttolerance.MPFaultToleranceCDIExtension,org.apache.tomee.microprofile.health.MPHealthCDIExtension,org.apache.tomee.microprofile.jwt.cdi.MPJWTCDIExtension,org.apache.tomee.microprofile.opentelemetry.MPOpenTelemetryCDIExtension'
+16-May-2026 18:54:59.634 INFO [http-nio-8080-exec-5] org.apache.openejb.util.OptionsLog.info Using 'tomee.mp.cdi.extensions=io.smallrye.config.inject.ConfigExtension,io.smallrye.faulttolerance.FaultToleranceExtension,io.smallrye.metrics.legacyapi.LegacyMetricsExtension,io.smallrye.opentelemetry.implementation.cdi.OpenTelemetryExtension,org.apache.cxf.microprofile.client.cdi.RestClientExtension,org.apache.tomee.microprofile.faulttolerance.MPFaultToleranceCDIExtension,org.apache.tomee.microprofile.health.MPHealthCDIExtension,org.apache.tomee.microprofile.jwt.cdi.MPJWTCDIExtension,org.apache.tomee.microprofile.opentelemetry.MPOpenTelemetryCDIExtension'
+16-May-2026 18:54:59.634 INFO [http-nio-8080-exec-5] org.apache.openejb.util.OptionsLog.info Using 'tomee.mp.cdi.extensions=io.smallrye.config.inject.ConfigExtension,io.smallrye.faulttolerance.FaultToleranceExtension,io.smallrye.metrics.legacyapi.LegacyMetricsExtension,io.smallrye.opentelemetry.implementation.cdi.OpenTelemetryExtension,org.apache.cxf.microprofile.client.cdi.RestClientExtension,org.apache.tomee.microprofile.faulttolerance.MPFaultToleranceCDIExtension,org.apache.tomee.microprofile.health.MPHealthCDIExtension,org.apache.tomee.microprofile.jwt.cdi.MPJWTCDIExtension,org.apache.tomee.microprofile.opentelemetry.MPOpenTelemetryCDIExtension'
+16-May-2026 18:54:59.634 INFO [http-nio-8080-exec-5] org.apache.openejb.util.OptionsLog.info Using 'tomee.mp.cdi.extensions=io.smallrye.config.inject.ConfigExtension,io.smallrye.faulttolerance.FaultToleranceExtension,io.smallrye.metrics.legacyapi.LegacyMetricsExtension,io.smallrye.opentelemetry.implementation.cdi.OpenTelemetryExtension,org.apache.cxf.microprofile.client.cdi.RestClientExtension,org.apache.tomee.microprofile.faulttolerance.MPFaultToleranceCDIExtension,org.apache.tomee.microprofile.health.MPHealthCDIExtension,org.apache.tomee.microprofile.jwt.cdi.MPJWTCDIExtension,org.apache.tomee.microprofile.opentelemetry.MPOpenTelemetryCDIExtension'
+16-May-2026 18:54:59.634 INFO [http-nio-8080-exec-5] org.apache.openejb.util.OptionsLog.info Using 'tomee.mp.cdi.extensions=io.smallrye.config.inject.ConfigExtension,io.smallrye.faulttolerance.FaultToleranceExtension,io.smallrye.metrics.legacyapi.LegacyMetricsExtension,io.smallrye.opentelemetry.implementation.cdi.OpenTelemetryExtension,org.apache.cxf.microprofile.client.cdi.RestClientExtension,org.apache.tomee.microprofile.faulttolerance.MPFaultToleranceCDIExtension,org.apache.tomee.microprofile.health.MPHealthCDIExtension,org.apache.tomee.microprofile.jwt.cdi.MPJWTCDIExtension,org.apache.tomee.microprofile.opentelemetry.MPOpenTelemetryCDIExtension'
+16-May-2026 18:54:59.634 INFO [http-nio-8080-exec-5] org.apache.openejb.util.OptionsLog.info Using 'tomee.mp.cdi.extensions=io.smallrye.config.inject.ConfigExtension,io.smallrye.faulttolerance.FaultToleranceExtension,io.smallrye.metrics.legacyapi.LegacyMetricsExtension,io.smallrye.opentelemetry.implementation.cdi.OpenTelemetryExtension,org.apache.cxf.microprofile.client.cdi.RestClientExtension,org.apache.tomee.microprofile.faulttolerance.MPFaultToleranceCDIExtension,org.apache.tomee.microprofile.health.MPHealthCDIExtension,org.apache.tomee.microprofile.jwt.cdi.MPJWTCDIExtension,org.apache.tomee.microprofile.opentelemetry.MPOpenTelemetryCDIExtension'
+16-May-2026 18:54:59.634 INFO [http-nio-8080-exec-5] org.apache.openejb.util.OptionsLog.info Using 'tomee.mp.cdi.extensions=io.smallrye.config.inject.ConfigExtension,io.smallrye.faulttolerance.FaultToleranceExtension,io.smallrye.metrics.legacyapi.LegacyMetricsExtension,io.smallrye.opentelemetry.implementation.cdi.OpenTelemetryExtension,org.apache.cxf.microprofile.client.cdi.RestClientExtension,org.apache.tomee.microprofile.faulttolerance.MPFaultToleranceCDIExtension,org.apache.tomee.microprofile.health.MPHealthCDIExtension,org.apache.tomee.microprofile.jwt.cdi.MPJWTCDIExtension,org.apache.tomee.microprofile.opentelemetry.MPOpenTelemetryCDIExtension'
+16-May-2026 18:54:59.634 INFO [http-nio-8080-exec-5] org.apache.openejb.util.OptionsLog.info Using 'tomee.mp.cdi.extensions=io.smallrye.config.inject.ConfigExtension,io.smallrye.faulttolerance.FaultToleranceExtension,io.smallrye.metrics.legacyapi.LegacyMetricsExtension,io.smallrye.opentelemetry.implementation.cdi.OpenTelemetryExtension,org.apache.cxf.microprofile.client.cdi.RestClientExtension,org.apache.tomee.microprofile.faulttolerance.MPFaultToleranceCDIExtension,org.apache.tomee.microprofile.health.MPHealthCDIExtension,org.apache.tomee.microprofile.jwt.cdi.MPJWTCDIExtension,org.apache.tomee.microprofile.opentelemetry.MPOpenTelemetryCDIExtension'
+16-May-2026 18:54:59.634 INFO [http-nio-8080-exec-5] org.apache.openejb.util.OptionsLog.info Using 'tomee.mp.cdi.extensions=io.smallrye.config.inject.ConfigExtension,io.smallrye.faulttolerance.FaultToleranceExtension,io.smallrye.metrics.legacyapi.LegacyMetricsExtension,io.smallrye.opentelemetry.implementation.cdi.OpenTelemetryExtension,org.apache.cxf.microprofile.client.cdi.RestClientExtension,org.apache.tomee.microprofile.faulttolerance.MPFaultToleranceCDIExtension,org.apache.tomee.microprofile.health.MPHealthCDIExtension,org.apache.tomee.microprofile.jwt.cdi.MPJWTCDIExtension,org.apache.tomee.microprofile.opentelemetry.MPOpenTelemetryCDIExtension'
+16-May-2026 18:54:59.634 INFO [http-nio-8080-exec-5] org.apache.openejb.util.OptionsLog.info Using 'tomee.mp.cdi.extensions=io.smallrye.config.inject.ConfigExtension,io.smallrye.faulttolerance.FaultToleranceExtension,io.smallrye.metrics.legacyapi.LegacyMetricsExtension,io.smallrye.opentelemetry.implementation.cdi.OpenTelemetryExtension,org.apache.cxf.microprofile.client.cdi.RestClientExtension,org.apache.tomee.microprofile.faulttolerance.MPFaultToleranceCDIExtension,org.apache.tomee.microprofile.health.MPHealthCDIExtension,org.apache.tomee.microprofile.jwt.cdi.MPJWTCDIExtension,org.apache.tomee.microprofile.opentelemetry.MPOpenTelemetryCDIExtension'
+16-May-2026 18:54:59.634 INFO [http-nio-8080-exec-5] org.apache.openejb.util.OptionsLog.info Using 'tomee.mp.cdi.extensions=io.smallrye.config.inject.ConfigExtension,io.smallrye.faulttolerance.FaultToleranceExtension,io.smallrye.metrics.legacyapi.LegacyMetricsExtension,io.smallrye.opentelemetry.implementation.cdi.OpenTelemetryExtension,org.apache.cxf.microprofile.client.cdi.RestClientExtension,org.apache.tomee.microprofile.faulttolerance.MPFaultToleranceCDIExtension,org.apache.tomee.microprofile.health.MPHealthCDIExtension,org.apache.tomee.microprofile.jwt.cdi.MPJWTCDIExtension,org.apache.tomee.microprofile.opentelemetry.MPOpenTelemetryCDIExtension'
+16-May-2026 18:54:59.634 INFO [http-nio-8080-exec-5] org.apache.openejb.util.OptionsLog.info Using 'tomee.mp.cdi.extensions=io.smallrye.config.inject.ConfigExtension,io.smallrye.faulttolerance.FaultToleranceExtension,io.smallrye.metrics.legacyapi.LegacyMetricsExtension,io.smallrye.opentelemetry.implementation.cdi.OpenTelemetryExtension,org.apache.cxf.microprofile.client.cdi.RestClientExtension,org.apache.tomee.microprofile.faulttolerance.MPFaultToleranceCDIExtension,org.apache.tomee.microprofile.health.MPHealthCDIExtension,org.apache.tomee.microprofile.jwt.cdi.MPJWTCDIExtension,org.apache.tomee.microprofile.opentelemetry.MPOpenTelemetryCDIExtension'
+16-May-2026 18:54:59.634 INFO [http-nio-8080-exec-5] org.apache.openejb.util.OptionsLog.info Using 'tomee.mp.cdi.extensions=io.smallrye.config.inject.ConfigExtension,io.smallrye.faulttolerance.FaultToleranceExtension,io.smallrye.metrics.legacyapi.LegacyMetricsExtension,io.smallrye.opentelemetry.implementation.cdi.OpenTelemetryExtension,org.apache.cxf.microprofile.client.cdi.RestClientExtension,org.apache.tomee.microprofile.faulttolerance.MPFaultToleranceCDIExtension,org.apache.tomee.microprofile.health.MPHealthCDIExtension,org.apache.tomee.microprofile.jwt.cdi.MPJWTCDIExtension,org.apache.tomee.microprofile.opentelemetry.MPOpenTelemetryCDIExtension'
+16-May-2026 18:54:59.635 INFO [http-nio-8080-exec-5] org.apache.openejb.util.OptionsLog.info Using 'tomee.mp.cdi.extensions=io.smallrye.config.inject.ConfigExtension,io.smallrye.faulttolerance.FaultToleranceExtension,io.smallrye.metrics.legacyapi.LegacyMetricsExtension,io.smallrye.opentelemetry.implementation.cdi.OpenTelemetryExtension,org.apache.cxf.microprofile.client.cdi.RestClientExtension,org.apache.tomee.microprofile.faulttolerance.MPFaultToleranceCDIExtension,org.apache.tomee.microprofile.health.MPHealthCDIExtension,org.apache.tomee.microprofile.jwt.cdi.MPJWTCDIExtension,org.apache.tomee.microprofile.opentelemetry.MPOpenTelemetryCDIExtension'
+16-May-2026 18:54:59.635 INFO [http-nio-8080-exec-5] org.apache.openejb.util.OptionsLog.info Using 'tomee.mp.cdi.extensions=io.smallrye.config.inject.ConfigExtension,io.smallrye.faulttolerance.FaultToleranceExtension,io.smallrye.metrics.legacyapi.LegacyMetricsExtension,io.smallrye.opentelemetry.implementation.cdi.OpenTelemetryExtension,org.apache.cxf.microprofile.client.cdi.RestClientExtension,org.apache.tomee.microprofile.faulttolerance.MPFaultToleranceCDIExtension,org.apache.tomee.microprofile.health.MPHealthCDIExtension,org.apache.tomee.microprofile.jwt.cdi.MPJWTCDIExtension,org.apache.tomee.microprofile.opentelemetry.MPOpenTelemetryCDIExtension'
+16-May-2026 18:54:59.635 INFO [http-nio-8080-exec-5] org.apache.openejb.util.OptionsLog.info Using 'tomee.mp.cdi.extensions=io.smallrye.config.inject.ConfigExtension,io.smallrye.faulttolerance.FaultToleranceExtension,io.smallrye.metrics.legacyapi.LegacyMetricsExtension,io.smallrye.opentelemetry.implementation.cdi.OpenTelemetryExtension,org.apache.cxf.microprofile.client.cdi.RestClientExtension,org.apache.tomee.microprofile.faulttolerance.MPFaultToleranceCDIExtension,org.apache.tomee.microprofile.health.MPHealthCDIExtension,org.apache.tomee.microprofile.jwt.cdi.MPJWTCDIExtension,org.apache.tomee.microprofile.opentelemetry.MPOpenTelemetryCDIExtension'
+16-May-2026 18:54:59.635 INFO [http-nio-8080-exec-5] org.apache.openejb.util.OptionsLog.info Using 'tomee.mp.cdi.extensions=io.smallrye.config.inject.ConfigExtension,io.smallrye.faulttolerance.FaultToleranceExtension,io.smallrye.metrics.legacyapi.LegacyMetricsExtension,io.smallrye.opentelemetry.implementation.cdi.OpenTelemetryExtension,org.apache.cxf.microprofile.client.cdi.RestClientExtension,org.apache.tomee.microprofile.faulttolerance.MPFaultToleranceCDIExtension,org.apache.tomee.microprofile.health.MPHealthCDIExtension,org.apache.tomee.microprofile.jwt.cdi.MPJWTCDIExtension,org.apache.tomee.microprofile.opentelemetry.MPOpenTelemetryCDIExtension'
+16-May-2026 18:54:59.883 INFO [http-nio-8080-exec-5] org.apache.webbeans.config.BeansDeployer.validateInjectionPoints All injection points were validated successfully.
+16-May-2026 18:54:59.898 INFO [http-nio-8080-exec-5] org.apache.openejb.cdi.OpenEJBLifecycle.startApplication OpenWebBeans Container has started, it took 317 ms.
+16-May-2026 18:54:59.899 INFO [http-nio-8080-exec-5] org.apache.openejb.assembler.classic.Assembler.startEjbs Created Ejb(deployment-id=StatusBean, ejb-name=StatusBean, container=Default Stateless Container)
+16-May-2026 18:54:59.899 INFO [http-nio-8080-exec-5] org.apache.openejb.assembler.classic.Assembler.startEjbs Created Ejb(deployment-id=ResponseBean, ejb-name=ResponseBean, container=Default Stateless Container)
+16-May-2026 18:54:59.904 INFO [http-nio-8080-exec-5] org.apache.openejb.assembler.classic.Assembler.startEjbs Created Ejb(deployment-id=ConfigBean, ejb-name=ConfigBean, container=Default Singleton Container)
+16-May-2026 18:54:59.915 INFO [http-nio-8080-exec-5] org.apache.openejb.assembler.classic.Assembler.startEjbs Started Ejb(deployment-id=StatusBean, ejb-name=StatusBean, container=Default Stateless Container)
+16-May-2026 18:54:59.919 INFO [http-nio-8080-exec-5] org.apache.openejb.assembler.classic.Assembler.startEjbs Started Ejb(deployment-id=ResponseBean, ejb-name=ResponseBean, container=Default Stateless Container)
+16-May-2026 18:54:59.934 INFO [http-nio-8080-exec-5] null.openjpa.Runtime Starting OpenJPA 4.1.1
+16-May-2026 18:54:59.981 INFO [http-nio-8080-exec-5] null.openjpa.jdbc.JDBC Using dictionary class "org.apache.openjpa.jdbc.sql.HSQLDictionary" (HSQL Database Engine 2.7.4 ,HSQL Database Engine Driver 2.7.4).
+16-May-2026 18:54:59.990 INFO [http-nio-8080-exec-5] null.openjpa.jdbc.JDBC Connected to HSQL Database Engine version 2.7 using JDBC driver HSQL Database Engine Driver version 2.7.4.
+16-May-2026 18:55:00.331 WARNING [http-nio-8080-exec-5] null.openjpa.Enhance Creating subclass for "[class jakarta.tutorial.rsvp.entity.Event, class jakarta.tutorial.rsvp.entity.Response, class jakarta.tutorial.rsvp.entity.Person]". This means that your application will be less efficient and will consume more memory than it would if you ran the OpenJPA enhancer. Additionally, lazy loading will not be available for one-to-one and many-to-one persistent attributes in types using field access; they will be loaded eagerly instead.
+16-May-2026 18:55:00.496 INFO [http-nio-8080-exec-5] org.apache.openejb.assembler.classic.Assembler.startEjbs Started Ejb(deployment-id=ConfigBean, ejb-name=ConfigBean, container=Default Singleton Container)
+16-May-2026 18:55:00.496 INFO [http-nio-8080-exec-5] org.apache.tomee.catalina.TomcatWebAppBuilder.deployWebApps using context file /tmp/Sxtormulo_tmp/rsvp/target/rsvp-10-SNAPSHOT/META-INF/context.xml
+16-May-2026 18:55:00.497 WARNING [http-nio-8080-exec-5] org.apache.batchee.container.services.ServicesManager.init You didn't specify org.apache.batchee.jmx.application and JMX is already registered, skipping
+16-May-2026 18:55:00.497 INFO [http-nio-8080-exec-5] org.apache.openejb.assembler.classic.Assembler.createApplication Deployed Application(path=/tmp/Sxtormulo_tmp/rsvp/target/rsvp-10-SNAPSHOT)
+16-May-2026 18:55:00.525 INFO [http-nio-8080-exec-5] org.apache.myfaces.webapp.MyFacesContainerInitializer.onStartup Using org.apache.myfaces.webapp.MyFacesContainerInitializer
+16-May-2026 18:55:00.531 INFO [http-nio-8080-exec-5] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+16-May-2026 18:55:00.533 INFO [http-nio-8080-exec-5] org.apache.tomee.myfaces.TomEEMyFacesContainerInitializer.addListener Installing <listener>org.apache.myfaces.webapp.StartupServletContextListener</listener>
+16-May-2026 18:55:00.630 INFO [http-nio-8080-exec-5] org.apache.myfaces.config.DefaultFacesConfigurationProvider.getWebAppFacesConfig Reading config /WEB-INF/faces-config.xml
+16-May-2026 18:55:00.742 INFO [http-nio-8080-exec-5] org.apache.myfaces.util.ExternalSpecifications.lambda$static$1 MyFaces Core CDI support enabled
+16-May-2026 18:55:00.782 INFO [http-nio-8080-exec-5] org.apache.myfaces.util.ExternalSpecifications.lambda$static$0 MyFaces Core Bean Validation support enabled
+16-May-2026 18:55:00.820 INFO [http-nio-8080-exec-5] org.apache.myfaces.webapp.WebConfigParamsLogger.logWebContextParams Scanning for context init parameters not defined. It is not necessary to define them all into your web.xml, they are just provided here for informative purposes. To disable this messages set org.apache.myfaces.LOG_WEB_CONTEXT_PARAMS config param to 'false'
+16-May-2026 18:55:00.820 INFO [http-nio-8080-exec-5] org.apache.myfaces.webapp.WebConfigParamsLogger.logMessageToAppropriateLevel Init context parameter found 'jakarta.faces.PROJECT_STAGE' set to 'Development'
+16-May-2026 18:55:00.820 INFO [http-nio-8080-exec-5] org.apache.myfaces.webapp.WebConfigParamsLogger.logMessageToAppropriateLevel No context init parameter 'jakarta.faces.RESOURCE_EXCLUDES' found, using default value '.class .jsp .jspx .properties .xhtml .groovy'.
+16-May-2026 18:55:00.820 INFO [http-nio-8080-exec-5] org.apache.myfaces.webapp.WebConfigParamsLogger.logMessageToAppropriateLevel No context init parameter 'jakarta.faces.STATE_SAVING_METHOD' found, using default value 'server'.
+16-May-2026 18:55:00.820 INFO [http-nio-8080-exec-5] org.apache.myfaces.webapp.WebConfigParamsLogger.logMessageToAppropriateLevel No context init parameter 'jakarta.faces.FULL_STATE_SAVING_VIEW_IDS' found.
+16-May-2026 18:55:00.820 INFO [http-nio-8080-exec-5] org.apache.myfaces.webapp.WebConfigParamsLogger.logMessageToAppropriateLevel No context init parameter 'jakarta.faces.PARTIAL_STATE_SAVING' found, using default value 'true (false with 1.2 webapps)'.
+16-May-2026 18:55:00.820 INFO [http-nio-8080-exec-5] org.apache.myfaces.webapp.WebConfigParamsLogger.logMessageToAppropriateLevel No context init parameter 'jakarta.faces.SERIALIZE_SERVER_STATE' found, using default value 'false'.
+16-May-2026 18:55:00.820 INFO [http-nio-8080-exec-5] org.apache.myfaces.webapp.WebConfigParamsLogger.logMessageToAppropriateLevel No context init parameter 'jakarta.faces.DEFAULT_SUFFIX' found, using default value '.xhtml'.
+16-May-2026 18:55:00.820 INFO [http-nio-8080-exec-5] org.apache.myfaces.webapp.WebConfigParamsLogger.logMessageToAppropriateLevel No context init parameter 'jakarta.faces.FACELETS_SUFFIX' found, using default value '.xhtml'.
+16-May-2026 18:55:00.821 INFO [http-nio-8080-exec-5] org.apache.myfaces.webapp.WebConfigParamsLogger.logMessageToAppropriateLevel No context init parameter 'jakarta.faces.FACELETS_VIEW_MAPPINGS' found.
+16-May-2026 18:55:00.821 INFO [http-nio-8080-exec-5] org.apache.myfaces.webapp.WebConfigParamsLogger.logMessageToAppropriateLevel No context init parameter 'jakarta.faces.FACELETS_BUFFER_SIZE' found, using default value '1024'.
+16-May-2026 18:55:00.821 INFO [http-nio-8080-exec-5] org.apache.myfaces.webapp.WebConfigParamsLogger.logMessageToAppropriateLevel No context init parameter 'jakarta.faces.FACELETS_DECORATORS' found.
+16-May-2026 18:55:00.821 INFO [http-nio-8080-exec-5] org.apache.myfaces.webapp.WebConfigParamsLogger.logMessageToAppropriateLevel No context init parameter 'jakarta.faces.FACELETS_LIBRARIES' found.
+16-May-2026 18:55:00.821 INFO [http-nio-8080-exec-5] org.apache.myfaces.webapp.WebConfigParamsLogger.logMessageToAppropriateLevel No context init parameter 'jakarta.faces.FACELETS_REFRESH_PERIOD' found, using default value '-1'.
+16-May-2026 18:55:00.821 INFO [http-nio-8080-exec-5] org.apache.myfaces.webapp.WebConfigParamsLogger.logMessageToAppropriateLevel No context init parameter 'jakarta.faces.FACELETS_SKIP_COMMENTS' found.
+16-May-2026 18:55:00.821 INFO [http-nio-8080-exec-5] org.apache.myfaces.webapp.WebConfigParamsLogger.logMessageToAppropriateLevel No context init parameter 'jakarta.faces.VALIDATE_EMPTY_FIELDS' found, using default value 'auto'.
+16-May-2026 18:55:00.821 INFO [http-nio-8080-exec-5] org.apache.myfaces.webapp.WebConfigParamsLogger.logMessageToAppropriateLevel No context init parameter 'jakarta.faces.INTERPRET_EMPTY_STRING_SUBMITTED_VALUES_AS_NULL' found, using default value 'false'.
+16-May-2026 18:55:00.821 INFO [http-nio-8080-exec-5] org.apache.myfaces.webapp.WebConfigParamsLogger.logMessageToAppropriateLevel No context init parameter 'org.apache.myfaces.CLEAR_INPUT_WHEN_SUBMITTED_VALUE_IS_NULL_OR_EMPTY' found, using default value 'true'.
+16-May-2026 18:55:00.821 INFO [http-nio-8080-exec-5] org.apache.myfaces.webapp.WebConfigParamsLogger.logMessageToAppropriateLevel No context init parameter 'jakarta.faces.ALWAYS_PERFORM_VALIDATION_WHEN_REQUIRED_IS_TRUE' found, using default value 'false'.
+16-May-2026 18:55:00.821 INFO [http-nio-8080-exec-5] org.apache.myfaces.webapp.WebConfigParamsLogger.logMessageToAppropriateLevel No context init parameter 'jakarta.faces.VIEWROOT_PHASE_LISTENER_QUEUES_EXCEPTIONS' found, using default value 'false'.
+16-May-2026 18:55:00.821 INFO [http-nio-8080-exec-5] org.apache.myfaces.webapp.WebConfigParamsLogger.logMessageToAppropriateLevel No context init parameter 'jakarta.faces.DATETIMECONVERTER_DEFAULT_TIMEZONE_IS_SYSTEM_TIMEZONE' found, using default value 'false'.
+16-May-2026 18:55:00.821 INFO [http-nio-8080-exec-5] org.apache.myfaces.webapp.WebConfigParamsLogger.logMessageToAppropriateLevel No context init parameter 'org.apache.myfaces.ENUM_CONVERTER_ALLOW_STRING_PASSTROUGH' found, using default value 'false'.
+16-May-2026 18:55:00.821 INFO [http-nio-8080-exec-5] org.apache.myfaces.webapp.WebConfigParamsLogger.logMessageToAppropriateLevel No context init parameter 'jakarta.faces.CLIENT_WINDOW_MODE' found, using default value 'none'.
+16-May-2026 18:55:00.821 INFO [http-nio-8080-exec-5] org.apache.myfaces.webapp.WebConfigParamsLogger.logMessageToAppropriateLevel No context init parameter 'jakarta.faces.NUMBER_OF_CLIENT_WINDOWS' found, using default value '10'.
+16-May-2026 18:55:00.821 INFO [http-nio-8080-exec-5] org.apache.myfaces.webapp.WebConfigParamsLogger.logMessageToAppropriateLevel No context init parameter 'jakarta.faces.validator.DISABLE_DEFAULT_BEAN_VALIDATOR' found, using default value 'true'.
+16-May-2026 18:55:00.821 INFO [http-nio-8080-exec-5] org.apache.myfaces.webapp.WebConfigParamsLogger.logMessageToAppropriateLevel No context init parameter 'jakarta.faces.validator.ENABLE_VALIDATE_WHOLE_BEAN' found, using default value 'false'.
+16-May-2026 18:55:00.821 INFO [http-nio-8080-exec-5] org.apache.myfaces.webapp.WebConfigParamsLogger.logMessageToAppropriateLevel No context init parameter 'jakarta.faces.CONFIG_FILES' found.
+16-May-2026 18:55:00.822 INFO [http-nio-8080-exec-5] org.apache.myfaces.webapp.WebConfigParamsLogger.logMessageToAppropriateLevel No context init parameter 'jakarta.faces.LIFECYCLE_ID' found.
+16-May-2026 18:55:00.822 INFO [http-nio-8080-exec-5] org.apache.myfaces.webapp.WebConfigParamsLogger.logMessageToAppropriateLevel No context init parameter 'jakarta.faces.DISABLE_FACESSERVLET_TO_XHTML' found.
+16-May-2026 18:55:00.822 INFO [http-nio-8080-exec-5] org.apache.myfaces.webapp.WebConfigParamsLogger.logMessageToAppropriateLevel No context init parameter 'jakarta.faces.AUTOMATIC_EXTENSIONLESS_MAPPING' found.
+16-May-2026 18:55:00.822 INFO [http-nio-8080-exec-5] org.apache.myfaces.webapp.WebConfigParamsLogger.logMessageToAppropriateLevel No context init parameter 'org.apache.myfaces.USE_LAMBDA_METAFACTORY' found, using default value 'false'.
+16-May-2026 18:55:00.822 INFO [http-nio-8080-exec-5] org.apache.myfaces.webapp.WebConfigParamsLogger.logMessageToAppropriateLevel No context init parameter 'org.apache.myfaces.USE_ENCRYPTION' found, using default value 'true'.
+16-May-2026 18:55:00.822 INFO [http-nio-8080-exec-5] org.apache.myfaces.webapp.WebConfigParamsLogger.logMessageToAppropriateLevel No context init parameter 'org.apache.myfaces.SECRET' found.
+16-May-2026 18:55:00.822 INFO [http-nio-8080-exec-5] org.apache.myfaces.webapp.WebConfigParamsLogger.logMessageToAppropriateLevel No context init parameter 'org.apache.myfaces.ALGORITHM' found, using default value 'AES'.
+16-May-2026 18:55:00.822 INFO [http-nio-8080-exec-5] org.apache.myfaces.webapp.WebConfigParamsLogger.logMessageToAppropriateLevel No context init parameter 'org.apache.myfaces.SECRET.CACHE' found.
+16-May-2026 18:55:00.822 INFO [http-nio-8080-exec-5] org.apache.myfaces.webapp.WebConfigParamsLogger.logMessageToAppropriateLevel No context init parameter 'org.apache.myfaces.ALGORITHM.IV' found.
+16-May-2026 18:55:00.822 INFO [http-nio-8080-exec-5] org.apache.myfaces.webapp.WebConfigParamsLogger.logMessageToAppropriateLevel No context init parameter 'org.apache.myfaces.ALGORITHM.PARAMETERS' found, using default value 'ECB/PKCS5Padding'.
+16-May-2026 18:55:00.822 INFO [http-nio-8080-exec-5] org.apache.myfaces.webapp.WebConfigParamsLogger.logMessageToAppropriateLevel No context init parameter 'org.apache.myfaces.SERIAL_FACTORY' found.
+16-May-2026 18:55:00.822 INFO [http-nio-8080-exec-5] org.apache.myfaces.webapp.WebConfigParamsLogger.logMessageToAppropriateLevel No context init parameter 'org.apache.myfaces.COMPRESS_STATE_IN_CLIENT' found, using default value 'false'.
+16-May-2026 18:55:00.822 INFO [http-nio-8080-exec-5] org.apache.myfaces.webapp.WebConfigParamsLogger.logMessageToAppropriateLevel No context init parameter 'org.apache.myfaces.MAC_ALGORITHM' found, using default value 'HmacSHA256'.
+16-May-2026 18:55:00.822 INFO [http-nio-8080-exec-5] org.apache.myfaces.webapp.WebConfigParamsLogger.logMessageToAppropriateLevel No context init parameter 'org.apache.myfaces.MAC_SECRET' found.
+16-May-2026 18:55:00.822 INFO [http-nio-8080-exec-5] org.apache.myfaces.webapp.WebConfigParamsLogger.logMessageToAppropriateLevel No context init parameter 'org.apache.myfaces.MAC_SECRET.CACHE' found.
+16-May-2026 18:55:00.822 INFO [http-nio-8080-exec-5] org.apache.myfaces.webapp.WebConfigParamsLogger.logMessageToAppropriateLevel No context init parameter 'org.apache.myfaces.CONFIG_REFRESH_PERIOD' found, using default value '2'.
+16-May-2026 18:55:00.822 INFO [http-nio-8080-exec-5] org.apache.myfaces.webapp.WebConfigParamsLogger.logMessageToAppropriateLevel No context init parameter 'org.apache.myfaces.RENDER_VIEWSTATE_ID' found, using default value 'true'.
+16-May-2026 18:55:00.822 INFO [http-nio-8080-exec-5] org.apache.myfaces.webapp.WebConfigParamsLogger.logMessageToAppropriateLevel No context init parameter 'org.apache.myfaces.STRICT_XHTML_LINKS' found, using default value 'true'.
+16-May-2026 18:55:00.822 INFO [http-nio-8080-exec-5] org.apache.myfaces.webapp.WebConfigParamsLogger.logMessageToAppropriateLevel No context init parameter 'org.apache.myfaces.RENDER_CLEAR_JAVASCRIPT_FOR_BUTTON' found, using default value 'false'.
+16-May-2026 18:55:00.822 INFO [http-nio-8080-exec-5] org.apache.myfaces.webapp.WebConfigParamsLogger.logMessageToAppropriateLevel No context init parameter 'org.apache.myfaces.DELEGATE_FACES_SERVLET' found.
+16-May-2026 18:55:00.822 INFO [http-nio-8080-exec-5] org.apache.myfaces.webapp.WebConfigParamsLogger.logMessageToAppropriateLevel No context init parameter 'org.apache.myfaces.REFRESH_TRANSIENT_BUILD_ON_PSS' found, using default value 'auto'.
+16-May-2026 18:55:00.822 INFO [http-nio-8080-exec-5] org.apache.myfaces.webapp.WebConfigParamsLogger.logMessageToAppropriateLevel No context init parameter 'org.apache.myfaces.REFRESH_TRANSIENT_BUILD_ON_PSS_PRESERVE_STATE' found, using default value 'false'.
+16-May-2026 18:55:00.823 INFO [http-nio-8080-exec-5] org.apache.myfaces.webapp.WebConfigParamsLogger.logMessageToAppropriateLevel No context init parameter 'org.apache.myfaces.VALIDATE_XML' found.
+16-May-2026 18:55:00.823 INFO [http-nio-8080-exec-5] org.apache.myfaces.webapp.WebConfigParamsLogger.logMessageToAppropriateLevel No context init parameter 'org.apache.myfaces.WRAP_SCRIPT_CONTENT_WITH_XML_COMMENT_TAG' found, using default value 'false'.
+16-May-2026 18:55:00.823 INFO [http-nio-8080-exec-5] org.apache.myfaces.webapp.WebConfigParamsLogger.logMessageToAppropriateLevel No context init parameter 'org.apache.myfaces.DEBUG_PHASE_LISTENER' found.
+16-May-2026 18:55:00.823 INFO [http-nio-8080-exec-5] org.apache.myfaces.webapp.WebConfigParamsLogger.logMessageToAppropriateLevel No context init parameter 'org.apache.myfaces.STRICT_JSF_2_CC_EL_RESOLVER' found, using default value 'false'.
+16-May-2026 18:55:00.823 INFO [http-nio-8080-exec-5] org.apache.myfaces.webapp.WebConfigParamsLogger.logMessageToAppropriateLevel No context init parameter 'org.apache.myfaces.DEFAULT_RESPONSE_WRITER_CONTENT_TYPE_MODE' found, using default value 'text/html'.
+16-May-2026 18:55:00.823 INFO [http-nio-8080-exec-5] org.apache.myfaces.webapp.WebConfigParamsLogger.logMessageToAppropriateLevel No context init parameter 'org.apache.myfaces.VIEW_UNIQUE_IDS_CACHE_ENABLED' found, using default value 'true'.
+16-May-2026 18:55:00.823 INFO [http-nio-8080-exec-5] org.apache.myfaces.webapp.WebConfigParamsLogger.logMessageToAppropriateLevel No context init parameter 'org.apache.myfaces.COMPONENT_UNIQUE_IDS_CACHE_SIZE' found, using default value '100'.
+16-May-2026 18:55:00.823 INFO [http-nio-8080-exec-5] org.apache.myfaces.webapp.WebConfigParamsLogger.logMessageToAppropriateLevel No context init parameter 'org.apache.myfaces.STRICT_JSF_2_VIEW_NOT_FOUND' found, using default value 'false'.
+16-May-2026 18:55:00.823 INFO [http-nio-8080-exec-5] org.apache.myfaces.webapp.WebConfigParamsLogger.logMessageToAppropriateLevel No context init parameter 'org.apache.myfaces.EARLY_FLUSH_ENABLED' found, using default value 'false'.
+16-May-2026 18:55:00.823 INFO [http-nio-8080-exec-5] org.apache.myfaces.webapp.WebConfigParamsLogger.logMessageToAppropriateLevel No context init parameter 'org.apache.myfaces.STRICT_JSF_2_FACELETS_COMPATIBILITY' found, using default value 'false'.
+16-May-2026 18:55:00.823 INFO [http-nio-8080-exec-5] org.apache.myfaces.webapp.WebConfigParamsLogger.logMessageToAppropriateLevel No context init parameter 'org.apache.myfaces.RENDER_FORM_VIEW_STATE_AT_BEGIN' found, using default value 'false'.
+16-May-2026 18:55:00.823 INFO [http-nio-8080-exec-5] org.apache.myfaces.webapp.WebConfigParamsLogger.logMessageToAppropriateLevel No context init parameter 'org.apache.myfaces.FLASH_SCOPE_DISABLED' found, using default value 'false'.
+16-May-2026 18:55:00.823 INFO [http-nio-8080-exec-5] org.apache.myfaces.webapp.WebConfigParamsLogger.logMessageToAppropriateLevel No context init parameter 'org.apache.myfaces.NUMBER_OF_VIEWS_IN_SESSION' found, using default value '20'.
+16-May-2026 18:55:00.823 INFO [http-nio-8080-exec-5] org.apache.myfaces.webapp.WebConfigParamsLogger.logMessageToAppropriateLevel No context init parameter 'org.apache.myfaces.NUMBER_OF_SEQUENTIAL_VIEWS_IN_SESSION' found, using default value '4'.
+16-May-2026 18:55:00.823 INFO [http-nio-8080-exec-5] org.apache.myfaces.webapp.WebConfigParamsLogger.logMessageToAppropriateLevel No context init parameter 'org.apache.myfaces.NUMBER_OF_FLASH_TOKENS_IN_SESSION' found.
+16-May-2026 18:55:00.823 INFO [http-nio-8080-exec-5] org.apache.myfaces.webapp.WebConfigParamsLogger.logMessageToAppropriateLevel No context init parameter 'org.apache.myfaces.SUPPORT_EL_3_IMPORT_HANDLER' found, using default value 'false'.
+16-May-2026 18:55:00.823 INFO [http-nio-8080-exec-5] org.apache.myfaces.webapp.WebConfigParamsLogger.logMessageToAppropriateLevel No context init parameter 'org.apache.myfaces.STRICT_JSF_2_ORIGIN_HEADER_APP_PATH' found, using default value 'false'.
+16-May-2026 18:55:00.823 INFO [http-nio-8080-exec-5] org.apache.myfaces.webapp.WebConfigParamsLogger.logMessageToAppropriateLevel No context init parameter 'org.apache.myfaces.STRICT_JSF_2_ALLOW_SLASH_LIBRARY_NAME' found, using default value 'false'.
+16-May-2026 18:55:00.823 INFO [http-nio-8080-exec-5] org.apache.myfaces.webapp.WebConfigParamsLogger.logMessageToAppropriateLevel No context init parameter 'org.apache.myfaces.RESOURCE_BUFFER_SIZE' found, using default value '2048'.
+16-May-2026 18:55:00.823 INFO [http-nio-8080-exec-5] org.apache.myfaces.webapp.WebConfigParamsLogger.logMessageToAppropriateLevel No context init parameter 'org.apache.myfaces.VALIDATE' found, using default value 'false'.
+16-May-2026 18:55:00.823 INFO [http-nio-8080-exec-5] org.apache.myfaces.webapp.WebConfigParamsLogger.logMessageToAppropriateLevel No context init parameter 'org.apache.myfaces.annotation.USE_CDI_FOR_ANNOTATION_SCANNING' found, using default value 'false'.
+16-May-2026 18:55:00.823 INFO [http-nio-8080-exec-5] org.apache.myfaces.webapp.WebConfigParamsLogger.logMessageToAppropriateLevel No context init parameter 'org.apache.myfaces.RESOURCE_HANDLER_CACHE_SIZE' found, using default value '500'.
+16-May-2026 18:55:00.823 INFO [http-nio-8080-exec-5] org.apache.myfaces.webapp.WebConfigParamsLogger.logMessageToAppropriateLevel No context init parameter 'org.apache.myfaces.RESOURCE_HANDLER_CACHE_ENABLED' found, using default value 'true'.
+16-May-2026 18:55:00.823 INFO [http-nio-8080-exec-5] org.apache.myfaces.webapp.WebConfigParamsLogger.logMessageToAppropriateLevel No context init parameter 'org.apache.myfaces.annotation.SCAN_PACKAGES' found.
+16-May-2026 18:55:00.823 INFO [http-nio-8080-exec-5] org.apache.myfaces.webapp.WebConfigParamsLogger.logMessageToAppropriateLevel No context init parameter 'jakarta.faces.WEBSOCKET_ENDPOINT_PORT' found.
+16-May-2026 18:55:00.823 INFO [http-nio-8080-exec-5] org.apache.myfaces.webapp.WebConfigParamsLogger.logMessageToAppropriateLevel No context init parameter 'org.apache.myfaces.WEBSOCKET_MAX_IDLE_TIMEOUT' found, using default value '300000'.
+16-May-2026 18:55:00.824 INFO [http-nio-8080-exec-5] org.apache.myfaces.webapp.WebConfigParamsLogger.logMessageToAppropriateLevel No context init parameter 'org.apache.myfaces.RANDOM_KEY_IN_WEBSOCKET_SESSION_TOKEN' found, using default value 'secureRandom'.
+16-May-2026 18:55:00.824 INFO [http-nio-8080-exec-5] org.apache.myfaces.webapp.WebConfigParamsLogger.logMessageToAppropriateLevel No context init parameter 'org.apache.myfaces.CLIENT_VIEW_STATE_TIMEOUT' found, using default value '0'.
+16-May-2026 18:55:00.824 INFO [http-nio-8080-exec-5] org.apache.myfaces.webapp.WebConfigParamsLogger.logMessageToAppropriateLevel No context init parameter 'org.apache.myfaces.RANDOM_KEY_IN_VIEW_STATE_SESSION_TOKEN' found, using default value 'secureRandom'.
+16-May-2026 18:55:00.824 INFO [http-nio-8080-exec-5] org.apache.myfaces.webapp.WebConfigParamsLogger.logMessageToAppropriateLevel No context init parameter 'org.apache.myfaces.RANDOM_KEY_IN_VIEW_STATE_SESSION_TOKEN_LENGTH' found, using default value '8'.
+16-May-2026 18:55:00.824 INFO [http-nio-8080-exec-5] org.apache.myfaces.webapp.WebConfigParamsLogger.logMessageToAppropriateLevel No context init parameter 'org.apache.myfaces.RANDOM_KEY_IN_VIEW_STATE_SESSION_TOKEN_SECURE_RANDOM_CLASS' found.
+16-May-2026 18:55:00.824 INFO [http-nio-8080-exec-5] org.apache.myfaces.webapp.WebConfigParamsLogger.logMessageToAppropriateLevel No context init parameter 'org.apache.myfaces.RANDOM_KEY_IN_VIEW_STATE_SESSION_TOKEN_SECURE_RANDOM_PROVIDER' found.
+16-May-2026 18:55:00.824 INFO [http-nio-8080-exec-5] org.apache.myfaces.webapp.WebConfigParamsLogger.logMessageToAppropriateLevel No context init parameter 'org.apache.myfaces.RANDOM_KEY_IN_VIEW_STATE_SESSION_TOKEN_SECURE_RANDOM_ALGORITHM' found, using default value 'SHA1PRNG'.
+16-May-2026 18:55:00.824 INFO [http-nio-8080-exec-5] org.apache.myfaces.webapp.WebConfigParamsLogger.logMessageToAppropriateLevel No context init parameter 'org.apache.myfaces.RANDOM_KEY_IN_CSRF_SESSION_TOKEN' found, using default value 'secureRandom'.
+16-May-2026 18:55:00.824 INFO [http-nio-8080-exec-5] org.apache.myfaces.webapp.WebConfigParamsLogger.logMessageToAppropriateLevel No context init parameter 'org.apache.myfaces.COMPRESS_STATE_IN_SESSION' found, using default value 'true'.
+16-May-2026 18:55:00.824 INFO [http-nio-8080-exec-5] org.apache.myfaces.webapp.WebConfigParamsLogger.logMessageToAppropriateLevel No context init parameter 'org.apache.myfaces.USE_FLASH_SCOPE_PURGE_VIEWS_IN_SESSION' found, using default value 'false'.
+16-May-2026 18:55:00.824 INFO [http-nio-8080-exec-5] org.apache.myfaces.webapp.WebConfigParamsLogger.logMessageToAppropriateLevel No context init parameter 'org.apache.myfaces.AUTOCOMPLETE_OFF_VIEW_STATE' found, using default value 'false'.
+16-May-2026 18:55:00.824 INFO [http-nio-8080-exec-5] org.apache.myfaces.webapp.WebConfigParamsLogger.logMessageToAppropriateLevel No context init parameter 'org.apache.myfaces.RESOURCE_MAX_TIME_EXPIRES' found, using default value '604800000'.
+16-May-2026 18:55:00.824 INFO [http-nio-8080-exec-5] org.apache.myfaces.webapp.WebConfigParamsLogger.logMessageToAppropriateLevel No context init parameter 'org.apache.myfaces.LAZY_LOAD_CONFIG_OBJECTS' found, using default value 'true'.
+16-May-2026 18:55:00.824 INFO [http-nio-8080-exec-5] org.apache.myfaces.webapp.WebConfigParamsLogger.logMessageToAppropriateLevel No context init parameter 'org.apache.myfaces.EL_RESOLVER_COMPARATOR' found.
+16-May-2026 18:55:00.824 INFO [http-nio-8080-exec-5] org.apache.myfaces.webapp.WebConfigParamsLogger.logMessageToAppropriateLevel No context init parameter 'org.apache.myfaces.EL_RESOLVER_PREDICATE' found.
+16-May-2026 18:55:00.824 INFO [http-nio-8080-exec-5] org.apache.myfaces.webapp.WebConfigParamsLogger.logMessageToAppropriateLevel No context init parameter 'org.apache.myfaces.VIEWID_CACHE_SIZE' found, using default value '500'.
+16-May-2026 18:55:00.824 INFO [http-nio-8080-exec-5] org.apache.myfaces.webapp.WebConfigParamsLogger.logMessageToAppropriateLevel No context init parameter 'org.apache.myfaces.VIEWID_EXISTS_CACHE_ENABLED' found, using default value 'true'.
+16-May-2026 18:55:00.824 INFO [http-nio-8080-exec-5] org.apache.myfaces.webapp.WebConfigParamsLogger.logMessageToAppropriateLevel No context init parameter 'org.apache.myfaces.VIEWID_PROTECTED_CACHE_ENABLED' found, using default value 'true'.
+16-May-2026 18:55:00.824 INFO [http-nio-8080-exec-5] org.apache.myfaces.webapp.WebConfigParamsLogger.logMessageToAppropriateLevel No context init parameter 'org.apache.myfaces.VIEWID_DERIVE_CACHE_ENABLED' found, using default value 'true'.
+16-May-2026 18:55:00.824 INFO [http-nio-8080-exec-5] org.apache.myfaces.webapp.WebConfigParamsLogger.logMessageToAppropriateLevel No context init parameter 'org.apache.myfaces.validator.BEAN_BEFORE_JSF_VALIDATION' found, using default value 'false'.
+16-May-2026 18:55:00.824 INFO [http-nio-8080-exec-5] org.apache.myfaces.webapp.WebConfigParamsLogger.logMessageToAppropriateLevel No context init parameter 'org.apache.myfaces.FACES_INIT_PLUGINS' found.
+16-May-2026 18:55:00.824 INFO [http-nio-8080-exec-5] org.apache.myfaces.webapp.WebConfigParamsLogger.logMessageToAppropriateLevel No context init parameter 'org.apache.myfaces.INITIALIZE_SKIP_JAR_FACES_CONFIG_SCAN' found, using default value 'false'.
+16-May-2026 18:55:00.824 INFO [http-nio-8080-exec-5] org.apache.myfaces.webapp.WebConfigParamsLogger.logMessageToAppropriateLevel No context init parameter 'org.apache.myfaces.INITIALIZE_ALWAYS_STANDALONE' found, using default value 'false'.
+16-May-2026 18:55:00.824 INFO [http-nio-8080-exec-5] org.apache.myfaces.webapp.WebConfigParamsLogger.logMessageToAppropriateLevel No context init parameter 'org.apache.myfaces.EXPRESSION_FACTORY' found.
+16-May-2026 18:55:00.824 INFO [http-nio-8080-exec-5] org.apache.myfaces.webapp.WebConfigParamsLogger.logMessageToAppropriateLevel No context init parameter 'org.apache.myfaces.CHECK_ID_PRODUCTION_MODE' found, using default value 'auto'.
+16-May-2026 18:55:00.824 INFO [http-nio-8080-exec-5] org.apache.myfaces.webapp.WebConfigParamsLogger.logMessageToAppropriateLevel No context init parameter 'org.apache.myfaces.MARK_INITIAL_STATE_WHEN_APPLY_BUILD_VIEW' found, using default value 'false'.
+16-May-2026 18:55:00.824 INFO [http-nio-8080-exec-5] org.apache.myfaces.webapp.WebConfigParamsLogger.logMessageToAppropriateLevel No context init parameter 'org.apache.myfaces.CACHE_EL_EXPRESSIONS' found, using default value 'noCache'.
+16-May-2026 18:55:00.824 INFO [http-nio-8080-exec-5] org.apache.myfaces.webapp.WebConfigParamsLogger.logMessageToAppropriateLevel No context init parameter 'org.apache.myfaces.WRAP_TAG_EXCEPTIONS_AS_CONTEXT_AWARE' found, using default value 'true'.
+16-May-2026 18:55:00.825 INFO [http-nio-8080-exec-5] org.apache.myfaces.webapp.WebConfigParamsLogger.logMessageToAppropriateLevel No context init parameter 'org.apache.myfaces.RESOURCE_CACHE_LAST_MODIFIED' found, using default value 'true'.
+16-May-2026 18:55:00.825 INFO [http-nio-8080-exec-5] org.apache.myfaces.webapp.WebConfigParamsLogger.logMessageToAppropriateLevel No context init parameter 'org.apache.myfaces.LOG_WEB_CONTEXT_PARAMS' found, using default value 'dev-only'.
+16-May-2026 18:55:00.825 INFO [http-nio-8080-exec-5] org.apache.myfaces.webapp.WebConfigParamsLogger.logMessageToAppropriateLevel No context init parameter 'org.apache.myfaces.FACES_INITIALIZER' found.
+16-May-2026 18:55:00.825 INFO [http-nio-8080-exec-5] org.apache.myfaces.webapp.WebConfigParamsLogger.logMessageToAppropriateLevel No context init parameter 'org.apache.myfaces.spi.InjectionProvider' found.
+16-May-2026 18:55:00.825 INFO [http-nio-8080-exec-5] org.apache.myfaces.webapp.WebConfigParamsLogger.logMessageToAppropriateLevel No context init parameter 'org.apache.myfaces.WEBSOCKET_MAX_CONNECTIONS' found.
+16-May-2026 18:55:00.825 INFO [http-nio-8080-exec-5] org.apache.myfaces.webapp.WebConfigParamsLogger.logMessageToAppropriateLevel No context init parameter 'org.apache.myfaces.RENDER_CLIENTBEHAVIOR_SCRIPTS_AS_STRING' found, using default value 'false'.
+16-May-2026 18:55:00.825 INFO [http-nio-8080-exec-5] org.apache.myfaces.webapp.WebConfigParamsLogger.logMessageToAppropriateLevel No context init parameter 'org.apache.myfaces.ALWAYS_FORCE_SESSION_CREATION' found, using default value 'false'.
+16-May-2026 18:55:00.825 INFO [http-nio-8080-exec-5] org.apache.myfaces.webapp.WebConfigParamsLogger.logMessageToAppropriateLevel No context init parameter 'org.apache.myfaces.RESOURCE_BUNDLE_CONTROL' found.
+16-May-2026 18:55:00.825 INFO [http-nio-8080-exec-5] org.apache.myfaces.webapp.WebConfigParamsLogger.logMessageToAppropriateLevel No context init parameter 'org.apache.myfaces.EL_RESOLVER_TRACING' found, using default value 'false'.
+16-May-2026 18:55:00.825 INFO [http-nio-8080-exec-5] org.apache.myfaces.webapp.WebConfigParamsLogger.logMessageToAppropriateLevel No context init parameter 'org.apache.myfaces.EXCEPTION_TYPES_TO_IGNORE_IN_LOGGING' found.
+16-May-2026 18:55:00.825 INFO [http-nio-8080-exec-5] org.apache.myfaces.webapp.WebConfigParamsLogger.logMessageToAppropriateLevel No context init parameter 'org.apache.myfaces.ERROR_TEMPLATE_RESOURCE' found, using default value 'META-INF/rsc/myfaces-dev-error.xml'.
+16-May-2026 18:55:00.825 INFO [http-nio-8080-exec-5] org.apache.myfaces.webapp.WebConfigParamsLogger.logMessageToAppropriateLevel No context init parameter 'org.apache.myfaces.DEBUG_TEMPLATE_RESOURCE' found, using default value 'META-INF/rsc/myfaces-dev-debug.xml'.
+16-May-2026 18:55:00.825 INFO [http-nio-8080-exec-5] org.apache.myfaces.webapp.WebConfigParamsLogger.logMessageToAppropriateLevel No context init parameter 'org.apache.myfaces.ERROR_HANDLING' found, using default value 'false, on Development Project stage: true'.
+16-May-2026 18:55:00.825 INFO [http-nio-8080-exec-5] org.apache.myfaces.webapp.WebConfigParamsLogger.logMessageToAppropriateLevel No context init parameter 'org.apache.myfaces.TEMPORAL_RESOURCEHANDLER_CACHE_ENABLED' found, using default value 'false'.
+16-May-2026 18:55:00.825 INFO [http-nio-8080-exec-5] org.apache.myfaces.webapp.WebConfigParamsLogger.logMessageToAppropriateLevel No context init parameter 'org.apache.myfaces.SERVICE_PROVIDER_FINDER' found.
+16-May-2026 18:55:00.825 INFO [http-nio-8080-exec-5] org.apache.myfaces.webapp.WebConfigParamsLogger.logMessageToAppropriateLevel No context init parameter 'org.apache.myfaces.RANDOM_KEY_IN_CSRF_SESSION_TOKEN_LENGTH' found, using default value '16'.
+16-May-2026 18:55:00.825 INFO [http-nio-8080-exec-5] org.apache.myfaces.webapp.WebConfigParamsLogger.logMessageToAppropriateLevel No context init parameter 'org.apache.myfaces.RANDOM_KEY_IN_CSRF_SESSION_TOKEN_SECURE_RANDOM_CLASS' found.
+16-May-2026 18:55:00.825 INFO [http-nio-8080-exec-5] org.apache.myfaces.webapp.WebConfigParamsLogger.logMessageToAppropriateLevel No context init parameter 'org.apache.myfaces.RANDOM_KEY_IN_CSRF_SESSION_TOKEN_SECURE_RANDOM_PROVIDER' found.
+16-May-2026 18:55:00.825 INFO [http-nio-8080-exec-5] org.apache.myfaces.webapp.WebConfigParamsLogger.logMessageToAppropriateLevel No context init parameter 'org.apache.myfaces.RANDOM_KEY_IN_CSRF_SESSION_TOKEN_SECURE_RANDOM_ALGORITM' found, using default value 'SHA1PRNG'.
+16-May-2026 18:55:00.825 INFO [http-nio-8080-exec-5] org.apache.myfaces.webapp.WebConfigParamsLogger.logMessageToAppropriateLevel No context init parameter 'org.apache.myfaces.VIEW_POOL_MAX_POOL_SIZE' found, using default value '5'.
+16-May-2026 18:55:00.826 INFO [http-nio-8080-exec-5] org.apache.myfaces.webapp.WebConfigParamsLogger.logMessageToAppropriateLevel No context init parameter 'org.apache.myfaces.VIEW_POOL_MAX_DYNAMIC_PARTIAL_LIMIT' found, using default value '2'.
+16-May-2026 18:55:00.826 INFO [http-nio-8080-exec-5] org.apache.myfaces.webapp.WebConfigParamsLogger.logMessageToAppropriateLevel No context init parameter 'org.apache.myfaces.VIEW_POOL_ENTRY_MODE' found, using default value 'soft'.
+16-May-2026 18:55:00.826 INFO [http-nio-8080-exec-5] org.apache.myfaces.webapp.WebConfigParamsLogger.logMessageToAppropriateLevel No context init parameter 'org.apache.myfaces.VIEW_POOL_DEFERRED_NAVIGATION' found, using default value 'false'.
+16-May-2026 18:55:00.827 WARNING [http-nio-8080-exec-5] org.apache.myfaces.webapp.FacesInitializerImpl.initFaces 
+
+********************************************************************
+*** WARNING: Apache MyFaces Core is running in DEVELOPMENT mode. ***
+***                                            ^^^^^^^^^^^       ***
+*** Do NOT deploy to your live server(s) without changing this.  ***
+*** See Application#getProjectStage() for more information.      ***
+********************************************************************
+
+
+16-May-2026 18:55:00.829 INFO [http-nio-8080-exec-5] org.apache.myfaces.webapp.FacesInitializerImpl.initFaces MyFaces Core has started, it took [292] ms.
+16-May-2026 18:55:00.866 INFO [http-nio-8080-exec-5] org.apache.openejb.server.cxf.rs.CxfRsHttpListener.logApplication Application{path='http://localhost:8080/rsvp/webapi', class=jakarta.tutorial.rsvp.rest.RsvpApplication, resources=2, providers=0, invalids=0}
+16-May-2026 18:55:00.869 INFO [http-nio-8080-exec-5] org.apache.openejb.server.cxf.rs.CxfRsHttpListener.logApplication Resource{clazz=jakarta.tutorial.rsvp.ejb.StatusBean, discovered=true, singleton=false}
+16-May-2026 18:55:00.869 INFO [http-nio-8080-exec-5] org.apache.openejb.server.cxf.rs.CxfRsHttpListener.logApplication Resource{clazz=jakarta.tutorial.rsvp.ejb.ResponseBean, discovered=true, singleton=false}
+16-May-2026 18:55:00.998 INFO [http-nio-8080-exec-5] org.apache.openejb.server.cxf.rs.CxfRsHttpListener.deployApplication Using readers:
+16-May-2026 18:55:00.998 INFO [http-nio-8080-exec-5] org.apache.openejb.server.cxf.rs.CxfRsHttpListener.deployApplication      org.apache.cxf.jaxrs.provider.EntityPartProvider@614ecdf5
+16-May-2026 18:55:00.998 INFO [http-nio-8080-exec-5] org.apache.openejb.server.cxf.rs.CxfRsHttpListener.deployApplication      org.apache.cxf.jaxrs.provider.PrimitiveTextProvider@7cdb7c6a
+16-May-2026 18:55:00.998 INFO [http-nio-8080-exec-5] org.apache.openejb.server.cxf.rs.CxfRsHttpListener.deployApplication      org.apache.cxf.jaxrs.provider.FormEncodingProvider@65c06321
+16-May-2026 18:55:00.998 INFO [http-nio-8080-exec-5] org.apache.openejb.server.cxf.rs.CxfRsHttpListener.deployApplication      org.apache.cxf.jaxrs.provider.MultipartProvider@5cd9e95a
+16-May-2026 18:55:00.998 INFO [http-nio-8080-exec-5] org.apache.openejb.server.cxf.rs.CxfRsHttpListener.deployApplication      org.apache.cxf.jaxrs.provider.SourceProvider@7a15fcec
+16-May-2026 18:55:00.998 INFO [http-nio-8080-exec-5] org.apache.openejb.server.cxf.rs.CxfRsHttpListener.deployApplication      org.apache.cxf.jaxrs.provider.JAXBElementTypedProvider@6d23b73e
+16-May-2026 18:55:00.998 INFO [http-nio-8080-exec-5] org.apache.openejb.server.cxf.rs.CxfRsHttpListener.deployApplication      org.apache.cxf.jaxrs.provider.JAXBElementProvider@b9c08d0
+16-May-2026 18:55:00.998 INFO [http-nio-8080-exec-5] org.apache.openejb.server.cxf.rs.CxfRsHttpListener.deployApplication      org.apache.openejb.server.cxf.rs.johnzon.TomEEJsonbProvider@14083aa1
+16-May-2026 18:55:00.998 INFO [http-nio-8080-exec-5] org.apache.openejb.server.cxf.rs.CxfRsHttpListener.deployApplication      org.apache.openejb.server.cxf.rs.johnzon.TomEEJsonpProvider@7dd9b7f4
+16-May-2026 18:55:00.998 INFO [http-nio-8080-exec-5] org.apache.openejb.server.cxf.rs.CxfRsHttpListener.deployApplication      org.apache.cxf.jaxrs.provider.StringTextProvider@c79ee7e
+16-May-2026 18:55:00.998 INFO [http-nio-8080-exec-5] org.apache.openejb.server.cxf.rs.CxfRsHttpListener.deployApplication      org.apache.cxf.jaxrs.provider.BinaryDataProvider@6be3d9b0
+16-May-2026 18:55:00.998 INFO [http-nio-8080-exec-5] org.apache.openejb.server.cxf.rs.CxfRsHttpListener.deployApplication      org.apache.cxf.jaxrs.provider.DataSourceProvider@4c7cd08a
+16-May-2026 18:55:00.998 INFO [http-nio-8080-exec-5] org.apache.openejb.server.cxf.rs.CxfRsHttpListener.deployApplication Using writers:
+16-May-2026 18:55:00.998 INFO [http-nio-8080-exec-5] org.apache.openejb.server.cxf.rs.CxfRsHttpListener.deployApplication      org.apache.cxf.jaxrs.provider.EntityPartProvider@614ecdf5
+16-May-2026 18:55:00.998 INFO [http-nio-8080-exec-5] org.apache.openejb.server.cxf.rs.CxfRsHttpListener.deployApplication      org.apache.cxf.jaxrs.provider.JAXBElementTypedProvider@6d23b73e
+16-May-2026 18:55:00.998 INFO [http-nio-8080-exec-5] org.apache.openejb.server.cxf.rs.CxfRsHttpListener.deployApplication      org.apache.johnzon.jaxrs.WadlDocumentMessageBodyWriter@7c2aa8e6
+16-May-2026 18:55:00.998 INFO [http-nio-8080-exec-5] org.apache.openejb.server.cxf.rs.CxfRsHttpListener.deployApplication      org.apache.cxf.jaxrs.provider.StringTextProvider@c79ee7e
+16-May-2026 18:55:00.998 INFO [http-nio-8080-exec-5] org.apache.openejb.server.cxf.rs.CxfRsHttpListener.deployApplication      org.apache.cxf.jaxrs.nio.NioMessageBodyWriter@3f63b303
+16-May-2026 18:55:00.998 INFO [http-nio-8080-exec-5] org.apache.openejb.server.cxf.rs.CxfRsHttpListener.deployApplication      org.apache.cxf.jaxrs.provider.PrimitiveTextProvider@7cdb7c6a
+16-May-2026 18:55:00.998 INFO [http-nio-8080-exec-5] org.apache.openejb.server.cxf.rs.CxfRsHttpListener.deployApplication      org.apache.cxf.jaxrs.provider.FormEncodingProvider@65c06321
+16-May-2026 18:55:00.999 INFO [http-nio-8080-exec-5] org.apache.openejb.server.cxf.rs.CxfRsHttpListener.deployApplication      org.apache.cxf.jaxrs.provider.MultipartProvider@5cd9e95a
+16-May-2026 18:55:00.999 INFO [http-nio-8080-exec-5] org.apache.openejb.server.cxf.rs.CxfRsHttpListener.deployApplication      org.apache.cxf.jaxrs.provider.SourceProvider@7a15fcec
+16-May-2026 18:55:00.999 INFO [http-nio-8080-exec-5] org.apache.openejb.server.cxf.rs.CxfRsHttpListener.deployApplication      org.apache.cxf.jaxrs.provider.JAXBElementProvider@b9c08d0
+16-May-2026 18:55:00.999 INFO [http-nio-8080-exec-5] org.apache.openejb.server.cxf.rs.CxfRsHttpListener.deployApplication      org.apache.openejb.server.cxf.rs.johnzon.TomEEJsonbProvider@14083aa1
+16-May-2026 18:55:00.999 INFO [http-nio-8080-exec-5] org.apache.openejb.server.cxf.rs.CxfRsHttpListener.deployApplication      org.apache.openejb.server.cxf.rs.johnzon.TomEEJsonpProvider@7dd9b7f4
+16-May-2026 18:55:00.999 INFO [http-nio-8080-exec-5] org.apache.openejb.server.cxf.rs.CxfRsHttpListener.deployApplication      org.apache.cxf.jaxrs.provider.BinaryDataProvider@6be3d9b0
+16-May-2026 18:55:00.999 INFO [http-nio-8080-exec-5] org.apache.openejb.server.cxf.rs.CxfRsHttpListener.deployApplication      org.apache.cxf.jaxrs.provider.DataSourceProvider@4c7cd08a
+16-May-2026 18:55:00.999 INFO [http-nio-8080-exec-5] org.apache.openejb.server.cxf.rs.CxfRsHttpListener.deployApplication Using exception mappers:
+16-May-2026 18:55:00.999 INFO [http-nio-8080-exec-5] org.apache.openejb.server.cxf.rs.CxfRsHttpListener.deployApplication      org.apache.cxf.jaxrs.impl.WebApplicationExceptionMapper@6e2c3a06
+16-May-2026 18:55:00.999 INFO [http-nio-8080-exec-5] org.apache.openejb.server.cxf.rs.CxfRsHttpListener.deployApplication      org.apache.openejb.server.cxf.rs.EJBExceptionMapper@1e31ab17
+16-May-2026 18:55:00.999 INFO [http-nio-8080-exec-5] org.apache.openejb.server.cxf.rs.CxfRsHttpListener.deployApplication      org.apache.cxf.jaxrs.validation.ValidationExceptionMapper@52e99606
+16-May-2026 18:55:01.000 INFO [http-nio-8080-exec-5] org.apache.openejb.server.cxf.rs.CxfRsHttpListener.logEndpoints REST Application: http://localhost:8080/rsvp/webapi                      -> jakarta.tutorial.rsvp.rest.RsvpApplication@7a6c6471
+16-May-2026 18:55:01.001 INFO [http-nio-8080-exec-5] org.apache.openejb.server.cxf.rs.CxfRsHttpListener.logEndpoints      Service URI: http://localhost:8080/rsvp/webapi/status               ->  EJB jakarta.tutorial.rsvp.ejb.StatusBean  
+16-May-2026 18:55:01.001 INFO [http-nio-8080-exec-5] org.apache.openejb.server.cxf.rs.CxfRsHttpListener.logEndpoints               GET http://localhost:8080/rsvp/webapi/status/all           ->      List<Event> getAllCurrentEvents()
+16-May-2026 18:55:01.002 INFO [http-nio-8080-exec-5] org.apache.openejb.server.cxf.rs.CxfRsHttpListener.logEndpoints               GET http://localhost:8080/rsvp/webapi/status/{eventId}/    ->      Event getEvent(Long)             
+16-May-2026 18:55:01.002 INFO [http-nio-8080-exec-5] org.apache.openejb.server.cxf.rs.CxfRsHttpListener.logEndpoints      Service URI: http://localhost:8080/rsvp/webapi/{eventId}/{inviteId} ->  EJB jakarta.tutorial.rsvp.ejb.ResponseBean
+16-May-2026 18:55:01.002 INFO [http-nio-8080-exec-5] org.apache.openejb.server.cxf.rs.CxfRsHttpListener.logEndpoints               GET http://localhost:8080/rsvp/webapi/{eventId}/{inviteId} ->      Response getResponse(Long, Long)    
+16-May-2026 18:55:01.002 INFO [http-nio-8080-exec-5] org.apache.openejb.server.cxf.rs.CxfRsHttpListener.logEndpoints              POST http://localhost:8080/rsvp/webapi/{eventId}/{inviteId} ->      void putResponse(String, Long, Long)
+16-May-2026 18:55:01.010 INFO [http-nio-8080-exec-5] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Deployment of deployment descriptor [/tmp/Sxtormulo_tmp/apache-tomee-plus-10.1.5/conf/Catalina/localhost/rsvp.xml] has finished in [2,054] ms
+16-May-2026 18:55:01.016 INFO [http-nio-8080-exec-9] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/rsvp]] after start() had already been called. The second call will be ignored.
+16-May-2026 18:55:01.264 INFO [http-nio-8080-exec-10] org.apache.myfaces.util.ExternalSpecifications.lambda$static$2 MyFaces Core Servlet 6.0 support enabled
+16-May-2026 18:55:01.342 INFO [http-nio-8080-exec-10] org.apache.myfaces.el.ELResolverBuilder.sortELResolvers Chain of EL resolvers: [org.apache.myfaces.el.resolver.implicitobject.ImplicitObjectResolver@35102d9a, org.apache.webbeans.el22.WebBeansELResolver@475486f0, org.apache.myfaces.el.resolver.CompositeComponentELResolver@3d63b138, org.apache.myfaces.el.resolver.FlashELResolver@6ae6084, org.apache.myfaces.el.resolver.ResourceResolver@3266e136, jakarta.el.ResourceBundleELResolver@51e6928c, org.apache.myfaces.el.resolver.ResourceBundleResolver@712c03f9, org.apache.myfaces.el.resolver.ImportConstantsELResolver@4f3e718, org.apache.el.stream.StreamELResolverImpl@119d9e1, jakarta.el.StaticFieldELResolver@640e49bc, jakarta.el.MapELResolver@752cad0f, jakarta.el.ListELResolver@6e7c5f95, jakarta.el.ArrayELResolver@21e5556a, jakarta.el.BeanELResolver@3730bb43]
+16-May-2026 18:55:01.724 INFO [http-nio-8080-exec-6] jakarta.tutorial.rsvp.ejb.StatusBean.getAllCurrentEvents Calling getAllCurrentEvents
+16-May-2026 18:55:01.873 WARNING [http-nio-8080-exec-6] org.apache.cxf.jaxrs.provider.JAXBElementProvider.writeTo <openjpa-4.1.1-r9d2f5f8 fatal user error> org.apache.openjpa.util.InvalidStateException: The context has been closed.  The stack trace at which the context was closed is available if Runtime=TRACE logging is enabled.
+	at org.apache.openjpa.kernel.BrokerImpl.assertOpen(BrokerImpl.java:4897)
+	at org.apache.openjpa.kernel.BrokerImpl.beginOperation(BrokerImpl.java:2056)
+	at org.apache.openjpa.kernel.BrokerImpl.find(BrokerImpl.java:1017)
+	at org.apache.openjpa.kernel.BrokerImpl.find(BrokerImpl.java:998)
+	at org.apache.openjpa.jdbc.kernel.JDBCStoreManager.load(JDBCStoreManager.java:1078)
+	at org.apache.openjpa.jdbc.sql.AbstractResult.load(AbstractResult.java:305)
+	at org.apache.openjpa.jdbc.sql.SelectImpl$SelectResult.load(SelectImpl.java:2537)
+	at org.apache.openjpa.jdbc.meta.strats.RelationToManyInverseKeyFieldStrategy.loadElement(RelationToManyInverseKeyFieldStrategy.java:98)
+	at org.apache.openjpa.jdbc.meta.strats.RelationCollectionInverseKeyFieldStrategy.loadElement(RelationCollectionInverseKeyFieldStrategy.java:83)
+	at org.apache.openjpa.jdbc.meta.strats.StoreCollectionFieldStrategy.load(StoreCollectionFieldStrategy.java:594)
+	at org.apache.openjpa.jdbc.meta.FieldMapping.load(FieldMapping.java:968)
+	at org.apache.openjpa.jdbc.kernel.JDBCStoreManager.load(JDBCStoreManager.java:702)
+	at org.apache.openjpa.kernel.DelegatingStoreManager.load(DelegatingStoreManager.java:129)
+	at org.apache.openjpa.kernel.ROPStoreManager.load(ROPStoreManager.java:82)
+	at org.apache.openjpa.kernel.StateManagerImpl.loadFields(StateManagerImpl.java:3286)
+	at org.apache.openjpa.kernel.StateManagerImpl.loadField(StateManagerImpl.java:3366)
+	at org.apache.openjpa.kernel.StateManagerImpl.fetchObjectField(StateManagerImpl.java:2577)
+	at org.apache.openjpa.kernel.StateManagerImpl.fetchField(StateManagerImpl.java:925)
+	at org.apache.openjpa.kernel.StateManagerImpl.fetch(StateManagerImpl.java:886)
+	at org.apache.openjpa.enhance.RedefinitionHelper$1.invoke(RedefinitionHelper.java:231)
+	at jdk.proxy2/jdk.proxy2.$Proxy148.iterator(Unknown Source)
+	at org.glassfish.jaxb.runtime.v2.runtime.reflect.Lister$CollectionLister.iterator(Lister.java:248)
+	at org.glassfish.jaxb.runtime.v2.runtime.reflect.Lister$CollectionLister.iterator(Lister.java:234)
+	at org.glassfish.jaxb.runtime.v2.runtime.property.ArrayElementProperty.serializeListBody(ArrayElementProperty.java:93)
+	at org.glassfish.jaxb.runtime.v2.runtime.property.ArrayERProperty.serializeBody(ArrayERProperty.java:122)
+	at org.glassfish.jaxb.runtime.v2.runtime.ClassBeanInfoImpl.serializeBody(ClassBeanInfoImpl.java:334)
+	at org.glassfish.jaxb.runtime.v2.runtime.XMLSerializer.childAsSoleContent(XMLSerializer.java:556)
+	at org.glassfish.jaxb.runtime.v2.runtime.ClassBeanInfoImpl.serializeRoot(ClassBeanInfoImpl.java:314)
+	at org.glassfish.jaxb.runtime.v2.runtime.XMLSerializer.childAsRoot(XMLSerializer.java:456)
+	at org.glassfish.jaxb.runtime.v2.runtime.MarshallerImpl.write(MarshallerImpl.java:265)
+	at org.glassfish.jaxb.runtime.v2.runtime.MarshallerImpl.marshal(MarshallerImpl.java:197)
+	at jakarta.xml.bind.helpers.AbstractMarshallerImpl.marshal(AbstractMarshallerImpl.java:86)
+	at org.apache.cxf.jaxrs.provider.JAXBElementProvider.marshalToOutputStream(JAXBElementProvider.java:635)
+	at org.apache.cxf.jaxrs.provider.JAXBElementProvider.marshal(JAXBElementProvider.java:591)
+	at org.apache.cxf.jaxrs.provider.JAXBElementProvider.marshalCollectionMember(JAXBElementProvider.java:434)
+	at org.apache.cxf.jaxrs.provider.JAXBElementProvider.marshalCollection(JAXBElementProvider.java:394)
+	at org.apache.cxf.jaxrs.provider.JAXBElementProvider.writeTo(JAXBElementProvider.java:327)
+	at org.apache.cxf.jaxrs.utils.JAXRSUtils.writeMessageBody(JAXRSUtils.java:1664)
+	at org.apache.cxf.jaxrs.interceptor.JAXRSOutInterceptor.serializeMessage(JAXRSOutInterceptor.java:249)
+	at org.apache.cxf.jaxrs.interceptor.JAXRSOutInterceptor.processResponse(JAXRSOutInterceptor.java:122)
+	at org.apache.cxf.jaxrs.interceptor.JAXRSOutInterceptor.handleMessage(JAXRSOutInterceptor.java:84)
+	at org.apache.cxf.phase.PhaseInterceptorChain.doIntercept(PhaseInterceptorChain.java:307)
+	at org.apache.cxf.interceptor.OutgoingChainInterceptor.handleMessage(OutgoingChainInterceptor.java:90)
+	at org.apache.cxf.phase.PhaseInterceptorChain.doIntercept(PhaseInterceptorChain.java:307)
+	at org.apache.cxf.transport.ChainInitiationObserver.onMessage(ChainInitiationObserver.java:121)
+	at org.apache.cxf.transport.http.AbstractHTTPDestination.invoke(AbstractHTTPDestination.java:267)
+	at org.apache.openejb.server.cxf.rs.CxfRsHttpListener.doInvoke(CxfRsHttpListener.java:266)
+	at org.apache.tomee.webservices.CXFJAXRSFilter.doFilter(CXFJAXRSFilter.java:80)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.apache.openejb.server.httpd.EEFilter.doFilter(EEFilter.java:67)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:165)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:88)
+	at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:45)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:492)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:113)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:83)
+	at org.apache.tomee.catalina.OpenEJBSecurityListener$RequestCapturer.invoke(OpenEJBSecurityListener.java:97)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:654)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:72)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1797)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:973)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:491)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+
+16-May-2026 18:55:01.875 SEVERE [http-nio-8080-exec-6] org.apache.cxf.jaxrs.utils.JAXRSUtils.logMessageHandlerProblem Problem with writing the data, class org.apache.openjpa.kernel.DelegatingResultList, ContentType: application/xml
+16-May-2026 18:55:01.877 WARNING [http-nio-8080-exec-6] org.apache.cxf.jaxrs.impl.WebApplicationExceptionMapper.toResponse jakarta.ws.rs.InternalServerErrorException: HTTP 500 Internal Server Error
+	at org.apache.cxf.jaxrs.utils.SpecExceptions.toInternalServerErrorException(SpecExceptions.java:79)
+	at org.apache.cxf.jaxrs.utils.ExceptionUtils.toInternalServerErrorException(ExceptionUtils.java:111)
+	at org.apache.cxf.jaxrs.provider.JAXBElementProvider.writeTo(JAXBElementProvider.java:340)
+	at org.apache.cxf.jaxrs.utils.JAXRSUtils.writeMessageBody(JAXRSUtils.java:1664)
+	at org.apache.cxf.jaxrs.interceptor.JAXRSOutInterceptor.serializeMessage(JAXRSOutInterceptor.java:249)
+	at org.apache.cxf.jaxrs.interceptor.JAXRSOutInterceptor.processResponse(JAXRSOutInterceptor.java:122)
+	at org.apache.cxf.jaxrs.interceptor.JAXRSOutInterceptor.handleMessage(JAXRSOutInterceptor.java:84)
+	at org.apache.cxf.phase.PhaseInterceptorChain.doIntercept(PhaseInterceptorChain.java:307)
+	at org.apache.cxf.interceptor.OutgoingChainInterceptor.handleMessage(OutgoingChainInterceptor.java:90)
+	at org.apache.cxf.phase.PhaseInterceptorChain.doIntercept(PhaseInterceptorChain.java:307)
+	at org.apache.cxf.transport.ChainInitiationObserver.onMessage(ChainInitiationObserver.java:121)
+	at org.apache.cxf.transport.http.AbstractHTTPDestination.invoke(AbstractHTTPDestination.java:267)
+	at org.apache.openejb.server.cxf.rs.CxfRsHttpListener.doInvoke(CxfRsHttpListener.java:266)
+	at org.apache.tomee.webservices.CXFJAXRSFilter.doFilter(CXFJAXRSFilter.java:80)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.apache.openejb.server.httpd.EEFilter.doFilter(EEFilter.java:67)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:165)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:88)
+	at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:45)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:492)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:113)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:83)
+	at org.apache.tomee.catalina.OpenEJBSecurityListener$RequestCapturer.invoke(OpenEJBSecurityListener.java:97)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:654)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:72)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1797)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:973)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:491)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+Caused by: <openjpa-4.1.1-r9d2f5f8 fatal user error> org.apache.openjpa.util.InvalidStateException: The context has been closed.  The stack trace at which the context was closed is available if Runtime=TRACE logging is enabled.
+	at org.apache.openjpa.kernel.BrokerImpl.assertOpen(BrokerImpl.java:4897)
+	at org.apache.openjpa.kernel.BrokerImpl.beginOperation(BrokerImpl.java:2056)
+	at org.apache.openjpa.kernel.BrokerImpl.find(BrokerImpl.java:1017)
+	at org.apache.openjpa.kernel.BrokerImpl.find(BrokerImpl.java:998)
+	at org.apache.openjpa.jdbc.kernel.JDBCStoreManager.load(JDBCStoreManager.java:1078)
+	at org.apache.openjpa.jdbc.sql.AbstractResult.load(AbstractResult.java:305)
+	at org.apache.openjpa.jdbc.sql.SelectImpl$SelectResult.load(SelectImpl.java:2537)
+	at org.apache.openjpa.jdbc.meta.strats.RelationToManyInverseKeyFieldStrategy.loadElement(RelationToManyInverseKeyFieldStrategy.java:98)
+	at org.apache.openjpa.jdbc.meta.strats.RelationCollectionInverseKeyFieldStrategy.loadElement(RelationCollectionInverseKeyFieldStrategy.java:83)
+	at org.apache.openjpa.jdbc.meta.strats.StoreCollectionFieldStrategy.load(StoreCollectionFieldStrategy.java:594)
+	at org.apache.openjpa.jdbc.meta.FieldMapping.load(FieldMapping.java:968)
+	at org.apache.openjpa.jdbc.kernel.JDBCStoreManager.load(JDBCStoreManager.java:702)
+	at org.apache.openjpa.kernel.DelegatingStoreManager.load(DelegatingStoreManager.java:129)
+	at org.apache.openjpa.kernel.ROPStoreManager.load(ROPStoreManager.java:82)
+	at org.apache.openjpa.kernel.StateManagerImpl.loadFields(StateManagerImpl.java:3286)
+	at org.apache.openjpa.kernel.StateManagerImpl.loadField(StateManagerImpl.java:3366)
+	at org.apache.openjpa.kernel.StateManagerImpl.fetchObjectField(StateManagerImpl.java:2577)
+	at org.apache.openjpa.kernel.StateManagerImpl.fetchField(StateManagerImpl.java:925)
+	at org.apache.openjpa.kernel.StateManagerImpl.fetch(StateManagerImpl.java:886)
+	at org.apache.openjpa.enhance.RedefinitionHelper$1.invoke(RedefinitionHelper.java:231)
+	at jdk.proxy2/jdk.proxy2.$Proxy148.iterator(Unknown Source)
+	at org.glassfish.jaxb.runtime.v2.runtime.reflect.Lister$CollectionLister.iterator(Lister.java:248)
+	at org.glassfish.jaxb.runtime.v2.runtime.reflect.Lister$CollectionLister.iterator(Lister.java:234)
+	at org.glassfish.jaxb.runtime.v2.runtime.property.ArrayElementProperty.serializeListBody(ArrayElementProperty.java:93)
+	at org.glassfish.jaxb.runtime.v2.runtime.property.ArrayERProperty.serializeBody(ArrayERProperty.java:122)
+	at org.glassfish.jaxb.runtime.v2.runtime.ClassBeanInfoImpl.serializeBody(ClassBeanInfoImpl.java:334)
+	at org.glassfish.jaxb.runtime.v2.runtime.XMLSerializer.childAsSoleContent(XMLSerializer.java:556)
+	at org.glassfish.jaxb.runtime.v2.runtime.ClassBeanInfoImpl.serializeRoot(ClassBeanInfoImpl.java:314)
+	at org.glassfish.jaxb.runtime.v2.runtime.XMLSerializer.childAsRoot(XMLSerializer.java:456)
+	at org.glassfish.jaxb.runtime.v2.runtime.MarshallerImpl.write(MarshallerImpl.java:265)
+	at org.glassfish.jaxb.runtime.v2.runtime.MarshallerImpl.marshal(MarshallerImpl.java:197)
+	at jakarta.xml.bind.helpers.AbstractMarshallerImpl.marshal(AbstractMarshallerImpl.java:86)
+	at org.apache.cxf.jaxrs.provider.JAXBElementProvider.marshalToOutputStream(JAXBElementProvider.java:635)
+	at org.apache.cxf.jaxrs.provider.JAXBElementProvider.marshal(JAXBElementProvider.java:591)
+	at org.apache.cxf.jaxrs.provider.JAXBElementProvider.marshalCollectionMember(JAXBElementProvider.java:434)
+	at org.apache.cxf.jaxrs.provider.JAXBElementProvider.marshalCollection(JAXBElementProvider.java:394)
+	at org.apache.cxf.jaxrs.provider.JAXBElementProvider.writeTo(JAXBElementProvider.java:327)
+	... 38 more
+
+16-May-2026 18:55:01.897 SEVERE [http-nio-8080-exec-10] org.apache.myfaces.context.ExceptionHandlerUtils.logException jakarta.ws.rs.WebApplicationException occurred while processing RENDER_RESPONSE [Location=]
+	jakarta.ws.rs.WebApplicationException: HTTP 404 Not Found
+		at jakarta.tutorial.rsvp.web.StatusManager.getEvents(StatusManager.java:108)
+		at org.apache.webbeans.custom.StatusManager$$OwbNormalScopeProxy10313246150.getEvents(jakarta/tutorial/rsvp/web/StatusManager.java)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+		at jakarta.el.BeanELResolver.getValue(BeanELResolver.java:101)
+		at jakarta.el.CompositeELResolver.getValue(CompositeELResolver.java:109)
+		at org.apache.el.parser.AstValue.getValue(AstValue.java:158)
+		at org.apache.el.ValueExpressionImpl.getValue(ValueExpressionImpl.java:150)
+		at org.apache.webbeans.el22.WrappedValueExpression.getValue(WrappedValueExpression.java:67)
+		at org.apache.myfaces.view.facelets.el.ContextAwareTagValueExpression.getValue(ContextAwareTagValueExpression.java:100)
+		at jakarta.faces.component._DeltaStateHelper.eval(_DeltaStateHelper.java:339)
+		at jakarta.faces.component.UIData.getValue(UIData.java:2020)
+		at jakarta.faces.component.UIData.createDataModel(UIData.java:1936)
+		at jakarta.faces.component.UIData.getDataModel(UIData.java:1899)
+		at jakarta.faces.component.UIData.getRowCount(UIData.java:493)
+		at org.apache.myfaces.renderkit.html.base.HtmlTableRendererBase.encodeInnerHtml(HtmlTableRendererBase.java:356)
+		at org.apache.myfaces.renderkit.html.base.HtmlTableRendererBase.encodeChildren(HtmlTableRendererBase.java:206)
+		at jakarta.faces.component.UIComponentBase.encodeChildren(UIComponentBase.java:605)
+		at jakarta.faces.component.UIComponentBase.encodeAll(UIComponentBase.java:510)
+		at jakarta.faces.component.UIComponentBase.encodeAll(UIComponentBase.java:519)
+		at jakarta.faces.component.UIComponentBase.encodeAll(UIComponentBase.java:519)
+		at org.apache.myfaces.view.facelets.FaceletViewDeclarationLanguage.renderView(FaceletViewDeclarationLanguage.java:1783)
+		at org.apache.myfaces.application.ViewHandlerImpl.renderView(ViewHandlerImpl.java:316)
+		at jakarta.faces.application.ViewHandlerWrapper.renderView(ViewHandlerWrapper.java:74)
+		at org.apache.myfaces.lifecycle.RenderResponseExecutor.execute(RenderResponseExecutor.java:122)
+		at org.apache.myfaces.lifecycle.LifecycleImpl.render(LifecycleImpl.java:241)
+		at jakarta.faces.webapp.FacesServlet.service(FacesServlet.java:225)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+		at org.apache.openejb.server.httpd.EEFilter.doFilter(EEFilter.java:67)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:165)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:88)
+		at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:45)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:492)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:113)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:83)
+		at org.apache.tomee.catalina.OpenEJBSecurityListener$RequestCapturer.invoke(OpenEJBSecurityListener.java:97)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:654)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:72)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1797)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:973)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:491)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+		at java.base/java.lang.Thread.run(Thread.java:840)
