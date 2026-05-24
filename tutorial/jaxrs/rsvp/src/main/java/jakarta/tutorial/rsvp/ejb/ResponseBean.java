@@ -38,7 +38,7 @@ public class ResponseBean {
     @PersistenceContext
     private EntityManager em;
     private static final Logger logger = Logger.getLogger(ResponseBean.class.getName());
-    
+
     @GET
     @Produces({MediaType.APPLICATION_XML, MediaType.APPLICATION_JSON})
     public Response getResponse(@PathParam("eventId") Long eventId,
@@ -56,13 +56,14 @@ public class ResponseBean {
     public void putResponse(String userResponse,
             @PathParam("eventId") Long eventId,
             @PathParam("inviteId") Long personId) {
-        logger.log(Level.INFO, 
-                "Updating status to {0} for person ID {1} for event ID {2}", 
-                new Object[]{userResponse, 
-                    eventId, 
+        logger.log(Level.INFO,
+                "Updating status to {0} for person ID {1} for event ID {2}",
+                new Object[]{userResponse,
+                    eventId,
                     personId});
-         Response response = (Response)
-                em.createNamedQuery("rsvp.entity.Response.findResponseByEventAndPerson")
+        Response response =
+            em.createNamedQuery("rsvp.entity.Response.findResponseByEventAndPerson",
+                                Response.class)
                 .setParameter("eventId", eventId)
                 .setParameter("personId", personId)
                 .getSingleResult();
@@ -77,5 +78,5 @@ public class ResponseBean {
             em.merge(response);
         }
     }
- 
+
 }

@@ -25,6 +25,8 @@ import jakarta.xml.bind.annotation.XmlAccessType;
 import jakarta.xml.bind.annotation.XmlAccessorType;
 import jakarta.xml.bind.annotation.XmlRootElement;
 import jakarta.xml.bind.annotation.XmlTransient;
+import java.util.HashSet;
+import java.util.Set;
 
 @XmlRootElement(name = "Person")
 @XmlAccessorType(XmlAccessType.FIELD)
@@ -39,13 +41,13 @@ public class Person implements Serializable {
     private List<Event> ownedEvents;
     @XmlTransient
     @ManyToMany(mappedBy = "invitees")
-    private List<Event> events;
+    private Set<Event> events;
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Long id;
 
     public Person() {
-        this.events = new ArrayList<>();
+        this.events = new HashSet<>();
         this.ownedEvents = new ArrayList<>();
         this.responses = new ArrayList<>();
     }
@@ -124,14 +126,16 @@ public class Person implements Serializable {
     /**
      * @return the events
      */
-    public List<Event> getEvents() {
+    public Set<Event> getEvents()
+    {
         return events;
     }
 
     /**
      * @param events the events to set
      */
-    public void setEvents(List<Event> events) {
+    public void setEvents(Set<Event> events)
+    {
         this.events = events;
     }
 
