@@ -19,6 +19,7 @@
     <exclude-unlisted-classes>false</exclude-unlisted-classes>
     <properties>
       <property name="jakarta.persistence.schema-generation.database.action" value="drop-and-create"/>
+      <property name="hibernate.show_sql" value="true" />
       <!-- Trying to get the openjpa stack trace. But the app do not deploy with it activated-->
       <!-- <property name="openjpa.Log" value="DefaultLevel=TRACE, Runtime=TRACE, Tool=TRACE"/> -->
     </properties>
