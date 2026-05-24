@@ -11,28 +11,32 @@
  */
 package jakarta.tutorial.rsvp.entity;
 
+import jakarta.persistence.*;
 import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 
-import jakarta.persistence.Entity;
-import jakarta.persistence.GeneratedValue;
-import jakarta.persistence.GenerationType;
-import jakarta.persistence.Id;
-import jakarta.persistence.ManyToMany;
-import jakarta.persistence.ManyToOne;
-import jakarta.persistence.NamedQuery;
-import jakarta.persistence.OneToMany;
-import jakarta.persistence.Temporal;
-import jakarta.persistence.TemporalType;
 import jakarta.xml.bind.annotation.XmlAccessType;
 import jakarta.xml.bind.annotation.XmlAccessorType;
 import jakarta.xml.bind.annotation.XmlRootElement;
+import java.util.*;
 
-
-@NamedQuery(name="rsvp.entity.Event.getAllUpcomingEvents",
-            query="SELECT e FROM Event e ")
+@NamedEntityGraph(name = "graph.Events",
+    attributeNodes = {
+        @NamedAttributeNode("responses"),
+        @NamedAttributeNode("invitees")
+    })
+@NamedQuery(name = "rsvp.entity.Event.getAllUpcomingEventsAndResponses",
+    query =
+    "SELECT e FROM Event e "
+    + "LEFT JOIN FETCH e.responses "
+    + "WHERE e.id IS NOT NULL")
+@NamedQuery(name = "rsvp.entity.Event.getAllUpcomingEventsAndInvitees",
+    query =
+    "SELECT e FROM Event e "
+    + "LEFT  JOIN FETCH e.invitees "
+    + "WHERE e.id IS NOT NULL")
 @XmlRootElement(name = "Event")
 @XmlAccessorType(XmlAccessType.FIELD)
 @Entity
@@ -44,7 +48,7 @@ public class Event implements Serializable {
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Long id;
     @ManyToMany
-    protected List<Person> invitees;
+    protected Set<Person> invitees;
     protected String name;
     @ManyToOne
     private Person owner;
@@ -53,7 +57,7 @@ public class Event implements Serializable {
     private Date eventDate;
 
     public Event() {
-        this.invitees = new ArrayList<>();
+        this.invitees = new HashSet<>();
         this.responses = new ArrayList<>();
     }
 
@@ -108,7 +112,8 @@ public class Event implements Serializable {
      *
      * @return the value of invitees
      */
-    public List<Person> getInvitees() {
+    public Set<Person> getInvitees()
+    {
         return invitees;
     }
 
@@ -117,7 +122,8 @@ public class Event implements Serializable {
      *
      * @param invitees new value of invitees
      */
-    public void setInvitees(List<Person> invitees) {
+    public void setInvitees(Set<Person> invitees)
+    {
         this.invitees = invitees;
     }
 
