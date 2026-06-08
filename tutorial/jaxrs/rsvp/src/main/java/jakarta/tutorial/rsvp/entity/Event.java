@@ -29,14 +29,24 @@ import java.util.*;
     })
 @NamedQuery(name = "rsvp.entity.Event.getAllUpcomingEventsAndResponses",
     query =
-    "SELECT e FROM Event e "
-    + "LEFT JOIN FETCH e.responses "
+    "SELECT DISTINCT e FROM Event e "
+    + "JOIN FETCH e.responses "
     + "WHERE e.id IS NOT NULL")
+@NamedQuery(name = "rsvp.entity.Event.getUpcomingEventsAndResponsesById",
+    query =
+    "SELECT DISTINCT e FROM Event e "
+    + "JOIN FETCH e.responses "
+    + "WHERE e.id=:eventId")
 @NamedQuery(name = "rsvp.entity.Event.getAllUpcomingEventsAndInvitees",
     query =
-    "SELECT e FROM Event e "
-    + "LEFT  JOIN FETCH e.invitees "
+    "SELECT DISTINCT e FROM Event e "
+    + "JOIN FETCH e.invitees "
     + "WHERE e.id IS NOT NULL")
+@NamedQuery(name = "rsvp.entity.Event.getUpcomingEventsAndInviteesById",
+    query =
+    "SELECT DISTINCT e FROM Event e "
+    + "JOIN FETCH e.invitees "
+    + "WHERE e.id=:eventId")
 @XmlRootElement(name = "Event")
 @XmlAccessorType(XmlAccessType.FIELD)
 @Entity
