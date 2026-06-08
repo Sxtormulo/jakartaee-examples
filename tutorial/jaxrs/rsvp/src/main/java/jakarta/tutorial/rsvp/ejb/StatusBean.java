@@ -49,26 +49,36 @@ public class StatusBean {
     @Path("{eventId}/")
     public Event getEvent(@PathParam("eventId") Long eventId)
     {
-        final EntityGraph<?> entityGraph = em.getEntityGraph("graph.Events");
-        final Map hints = new HashMap();
-        hints.put("jakarta.persistence.fetchgraph", entityGraph);
-        return em.find(Event.class, eventId, hints);
+//        final EntityGraph<?> entityGraph = em.getEntityGraph("graph.Events");
+//        final Map hints = new HashMap();
+//        hints.put("jakarta.persistence.fetchgraph", entityGraph);
+//        return em.find(Event.class, eventId, hints);
+        final TypedQuery<Event> eventResponses =
+            em.createNamedQuery("rsvp.entity.Event.getUpcomingEventsAndResponsesById",
+                                Event.class);
+        final TypedQuery<Event> eventInvitees =
+            em.createNamedQuery("rsvp.entity.Event.getUpcomingEventsAndInviteesById",
+                                Event.class);
+        var event = eventResponses.setParameter("eventId", eventId).getSingleResult();
+        event = eventInvitees.setParameter("eventId", eventId).getSingleResult();
+        return event;
     }
+
 
     @GET
     @Produces({MediaType.APPLICATION_XML, MediaType.APPLICATION_JSON})
     @Path("all")
     public List<Event> getAllCurrentEvents() {
         logger.info("Calling getAllCurrentEvents");
-        /* Problem solved using named entity graphs
-         *
-         * final EntityGraph<?> entityGraph = em.getEntityGraph("graph.Events");
-         * final TypedQuery<Event> eventQuery =
-         * em.createQuery("SELECT e FROM Event e", Event.class).setHint(
-         * "jakarta.persistence.fetchgraph",
-         * entityGraph);
-         * allCurrentEvents = eventQuery.getResultList();
-         */
+        //Problem solved using named entity graphs
+
+//        final EntityGraph<?> entityGraph = em.getEntityGraph("graph.Events");
+//        final TypedQuery<Event> eventQuery =
+//            em.createQuery("SELECT e FROM Event e", Event.class).setHint(
+//                "jakarta.persistence.fetchgraph",
+//                entityGraph);
+//        allCurrentEvents = eventQuery.getResultList();
+
 
  /* Problem solved using two left join fetch queries. It is necesary
          * to use two separate left join fetch queries to aviod the creation
@@ -77,15 +87,15 @@ public class StatusBean {
         final TypedQuery<Event> eventResponseQuery =
             em.createNamedQuery("rsvp.entity.Event.getAllUpcomingEventsAndResponses",
                                 Event.class);
-        allCurrentEvents = eventResponseQuery.getResultList();
         final TypedQuery<Event> eventInviteesQuery =
             em.createNamedQuery("rsvp.entity.Event.getAllUpcomingEventsAndInvitees",
                                 Event.class);
+        allCurrentEvents = eventResponseQuery.getResultList();
         allCurrentEvents = eventInviteesQuery.getResultList();
         if(allCurrentEvents == null) {
             logger.warning("No current events!");
         }
-        return this.allCurrentEvents;
+        return allCurrentEvents;
     }
 
     public void setAllCurrentEvents(List<Event> events) {
